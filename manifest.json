@@ -1,0 +1,19 @@
+{
+  "name": "Classe de Violon — Félix Frochhammer",
+  "short_name": "Classe Violon",
+  "description": "Planning des cours de violon (Félix Frochhammer), accompagnement piano (Stéphanie Gurga) et auditions de classe.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0A0A0A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%230A0A0A'/%3E%3Cpath d='M320 96c-32 0-54 26-60 68l-30 204c-6 42-28 68-60 68' fill='none' stroke='%23FFFFFF' stroke-width='28' stroke-linecap='round'/%3E%3Ccircle cx='326' cy='122' r='22' fill='%23FFFFFF'/%3E%3Ccircle cx='164' cy='410' r='22' fill='%23FFFFFF'/%3E%3Cpath d='M204 256h86' stroke='%23FFFFFF' stroke-width='24' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

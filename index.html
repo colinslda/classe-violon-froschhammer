@@ -1,0 +1,3349 @@
+<!DOCTYPE html>
+<html lang="fr"><head><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.fr.NwStCmsbVJ4.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_6HDxoiWLkgSC_FQfcFOPTefeGBg/cb=gapi.loaded_0?le=scs" async=""></script><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNTAyNTgxODY0MTczNTE3MTA4OSIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzY5MDY5NmQ2OTY2MWI5NmZfaW5kZXguaHRtbC0xNyJ9LCJleHAiOjE3OTU1MjIzNjgsImlhdCI6MTc5NTUxODc2OCwiYWxnIjoiUlMyNTYifQ.aJm1kEAK68vsQ5JBzL9lPR9vRqIweVPxUmUaxRQvzRVj9_a0CHW0CJhI5hMoavKAXkbhxfMXzoAny16aFf2_V573wGPKIH17lu5UAK2Y5aCnwCn6bNm95njIr0yXWcliHa-VdOxTjKbB3bihrIafxpZM51xyFwvG2Y73XL7wwX7ki10IUc2ETSTIwQogFz-OjuTMEmAhPbkZuqN9ESSX-1p90H6MEmsqHv7T2scvh1k19I83e-87otPX-Dc6UdApE1HW9hG5qzXy-2TUNAWfX3C_JofxUCsDaFpiDR_VnaJ9ZcB0IoF7a_6ldjik0D3cUx0G4CFw2DfSIbsGYUpLQQ","c_690696d69661b96f_index.html-17")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var k=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function m(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var q=m(this);
+function r(a,b){if(b)a:{var d=q;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&k(d,a,{configurable:!0,writable:!0,value:b})}}function t(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function u(a){return t(a())}
+r("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});r("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function v(a,b){var d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);var c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var aa=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let y=null;function z(a={}){return y?y:a.u?y=a.u:y=w(window.getComputedStyle(document.documentElement))}function A(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function B(a,b={}){var d;if(!(d=b.width)){d=A(a,"border-left-width");var c=A(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=A(a,"border-top-width"),c=A(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function C(a){return new Promise((b,d)=>{var c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function ba(a){return u(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function ca(a,b,d){return u(function*(){var c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return ba(c)})}
+var D=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||D(a,b)};function da(a,b){return z(b).map(d=>{var c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function E(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=aa();try{b.className=`${b.className} ${f}`}catch(h){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=da(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function F(a){return a.search(/^(data:)/)!==-1}function G(a,b,d){return u(function*(){var c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);var e=yield c.blob();return new Promise((f,g)=>{var h=new FileReader;h.onerror=g;h.onloadend=()=>{try{f(d({v:c,result:h.result}))}catch(l){g(l)}};h.readAsDataURL(e)})})}const H={};function ea(a,b,d){var c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function I(a,b,d){return u(function*(){var c=ea(a,b,d.F);if(H[c]!=null)return H[c];d.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield G(a,d.l,({v:g,result:h})=>{b||(b=g.headers.get("Content-Type")||"");return h.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=d.o||""}return H[c]=e})};const J={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function K(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function fa(a){return u(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):C(b)})}function ha(a,b){return u(function*(){if(a.currentSrc){var d=document.createElement("canvas");let c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return C(d)}d=a.poster;d=yield I(d,J[K(d).toLowerCase()]||"",b);return C(d)})}
+function ia(a,b){return u(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield L(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ja(a,b){return u(function*(){return D(a,HTMLCanvasElement)?fa(a):D(a,HTMLVideoElement)?ha(a,b):D(a,HTMLIFrameElement)?ia(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function ka(a,b,d){return u(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(D(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||D(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>L(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function la(a,b,d){var c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):z(d).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);D(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ma(a,b){D(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function na(a,b){return u(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield L(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function L(a,b,d){return u(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ja(c,b)).then(c=>ka(a,c,b)).then(c=>{D(c,Element)&&(la(a,c,b),E(a,c,":before",b),E(a,c,":after",b),D(a,HTMLTextAreaElement)&&(c.textContent=a.value),D(a,HTMLInputElement)&&c.setAttribute("value",a.value),ma(a,c));return c}).then(c=>na(c,b)):null})};const M=/url\((['"]?)([^'"]+?)\1\)/g,oa=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,pa=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function qa(a){var b=[];a.replace(M,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!F(d))}
+function ra(a,b,d,c){return u(function*(){try{let e=d?(new URL(b,d||void 0)).toString():b,f;f=yield I(e,J[K(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function sa(a,{K:b}){return b?a.replace(pa,d=>{for(;;){let [c,,e]=oa.exec(d)||[];if(!e)return"";if(e===b)return`src: ${c};`}}):a}
+function N(a,b,d){return u(function*(){if(a.search(M)===-1)return a;var c=sa(a,d);return qa(c).reduce((e,f)=>e.then(g=>ra(g,f,b,d)),Promise.resolve(c))})};function O(a,b,d){return u(function*(){var c,e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield N(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function ta(a,b){return u(function*(){(yield O("background",a,b))||(yield O("background-image",a,b));(yield O("mask",a,b))||(yield O("-webkit-mask",a,b))||(yield O("mask-image",a,b))||(yield O("-webkit-mask-image",a,b))})}
+function ua(a,b){return u(function*(){var d=D(a,HTMLImageElement);if(d&&!F(a.src)||D(a,SVGImageElement)&&!F(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield I(c,J[K(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...h)=>{try{f(b.h(...h))}catch(l){g(l)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function va(a,b){return u(function*(){var d=w(a.childNodes).map(c=>P(c,b));yield Promise.all(d).then(()=>a)})}function P(a,b){return u(function*(){D(a,Element)&&(yield ta(a,b),yield ua(a,b),yield va(a,b))})};const Q={};function R(a){return u(function*(){var b=Q[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return Q[a]=b})}function S(a,b){return u(function*(){var d=a.cssText,c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>u(function*(){var g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return G(g,b.l,({result:h})=>{d=d.replace(f,`url(${h})`);return[f,h]})}));return Promise.all(e).then(()=>d)})}
+function T(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function wa(a,b){return u(function*(){var d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let h=g+1;f=R(f.href).then(l=>S(l,b)).then(l=>T(l).forEach(p=>{try{e.insertRule(p,p.startsWith("@import")?h+=1:e.cssRules.length)}catch(x){}})).catch(()=>{});c.push(f)}})}catch(f){let g=a.find(h=>h.href==null)||document.styleSheets[0];e.href!=null&&c.push(R(e.href).then(h=>S(h,b)).then(h=>T(h).forEach(l=>{g.insertRule(l,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function xa(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(M)!==-1)}function ya(a,b){return u(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=yield wa(w(a.ownerDocument.styleSheets),b);return xa(d)})}
+function za(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var d=new Set;b(a);return d}function Aa(a,b){return u(function*(){var d=yield ya(a,b),c=za(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>N(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function Ba(a,b){return u(function*(){var d=b.m!=null?b.m:b.A?null:yield Aa(a,b);if(d){let c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function Ca(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield L(a,b,!0);yield Ba(e,b);yield P(e,b);v(e,b);return yield ca(e,d,c)})}
+function Da(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield Ca(a,b);e=yield C(e);var f=document.createElement("canvas"),g=f.getContext("2d"),h=b.I||window.devicePixelRatio||1,l=b.j||d,p=b.i||c;f.width=l*h;f.height=p*h;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${l}`;f.style.height=`${p}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Ea(a,b={}){return u(function*(){return(yield Da(a,b)).toDataURL()})};const Fa=["gemini.google.com","corp.google.com","proxy.googlers.com"];function V(a){a=Number(a.replace(/px$/,""));return Number.isFinite(a)?a:0}function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var d=document.createElement("canvas");d.width=a;d.height=b;return d.toDataURL("image/png")}const Y=X(1,1);
+function Z(a,b){return u(function*(){var d=Math.max(b?b.width:a.offsetWidth,1),c=Math.max(b?b.height:a.offsetHeight,1),e=HTMLCanvasElement.prototype.toDataURL;b&&(HTMLCanvasElement.prototype.toDataURL=function(f,g){var h;if(h=this.isConnected&&a.contains(this)){{let n=this.getBoundingClientRect();if(n.width===0||n.height===0)h=!1;else if(window.getComputedStyle(this).position==="fixed")h=n.bottom>0&&n.top<b.height&&n.right>0&&n.left<b.width;else{h=a.getBoundingClientRect();var l=n.top-h.top,p=n.left-
+h.left,x=n.right-h.left;h=n.bottom-h.top>b.scrollTop&&l<b.scrollTop+b.height&&x>b.scrollLeft&&p<b.scrollLeft+b.width}}h=!h}return h?"data:,":e.call(this,f,g)});try{let f=window.getComputedStyle(a),g=b?`${V(f.marginTop)-b.scrollTop}px`:void 0,h=b?`${V(f.marginLeft)-b.scrollLeft}px`:void 0,l=`${Math.max(a.offsetWidth,d)}px`,p,x=`${Math.max(a.offsetHeight,c+((p=b==null?void 0:b.scrollTop)!=null?p:0))}px`;return yield Ea(a,Object.assign({},{width:d,height:c,j:d,i:c},b?{style:{width:l,height:x,marginTop:g,
+marginLeft:h,marginBlockStart:g,marginInlineStart:h}}:{},{A:!0,filter:n=>{if(n.tagName==="IMG"){let U=n.getAttribute("src");if(!U||U.trim()===""||n.style.display==="none")return!1}return!0},o:Y,h:()=>Y}))}catch(f){return X(d,c)}finally{HTMLCanvasElement.prototype.toDataURL=e}})}
+function Ga(){return u(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ha(a){return u(function*(){var b={width:window.innerWidth||document.documentElement.clientWidth||document.body.offsetWidth,height:window.innerHeight||document.documentElement.clientHeight||document.body.offsetHeight,scrollTop:window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0,scrollLeft:window.scrollX||document.documentElement.scrollLeft||document.body.scrollLeft||0},d=document.body;if(W()){let c=yield Ga();d=c;document.body.appendChild(c)}b=yield Z(d,b);W()&&
+document.body.removeChild(d);window.parent.postMessage({type:"SEND_SCREENSHOT",image:b,topOffset:0},a.origin)})}function Ia(a){return u(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}window.addEventListener("message",a=>u(function*(){if(Fa.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ha(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ia(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.i=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.extensions="";var l=0,t=null,r=null,q=[],F=new TextEncoder,
+G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*
+16|0;return(f==="x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;
+(g=t)==null||g.postMessage(a)}};Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function() {
+  const OVERLAY_SELECTOR =
+    'dialog[open], [role="dialog"], [role="alertdialog"], [role="menu"], [role="listbox"], [role="combobox"]';
+
+  function isVisibleOverlay(element) {
+    if (element.closest('[hidden], [aria-hidden="true"], [inert]')) {
+      return false;
+    }
+    if (window.getComputedStyle(element).visibility === 'hidden') {
+      return false;
+    }
+    for (let cur = element; cur; cur = cur.parentElement) {
+      if (window.getComputedStyle(cur).display === 'none') {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  function hasOpenOverlay() {
+    const candidates = document.querySelectorAll(OVERLAY_SELECTOR);
+    for (let i = 0; i < candidates.length; i++) {
+      if (isVisibleOverlay(candidates[i])) {
+        return true;
+      }
+    }
+    try {
+      if (document.querySelector('[popover]:popover-open')) {
+        return true;
+      }
+    } catch (e) {
+      // Ignore engines that do not support :popover-open.
+    }
+    return false;
+  }
+
+  function isNonEmptySearchInput(target) {
+    return (
+      Boolean(target) &&
+      target.tagName === 'INPUT' &&
+      typeof target.type === 'string' &&
+      target.type.toLowerCase() === 'search' &&
+      typeof target.value === 'string' &&
+      target.value.length > 0
+    );
+  }
+
+  function shouldIgnoreEscape(event) {
+    return (
+      event.key !== 'Escape' ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      event.isComposing ||
+      event.repeat ||
+      event.keyCode === 229 ||
+      isNonEmptySearchInput(event.target)
+    );
+  }
+
+  let shouldIgnoreCaptureState = false;
+
+  window.addEventListener(
+    'keydown',
+    function(event) {
+      if (event.key === 'Escape') {
+        shouldIgnoreCaptureState =
+          hasOpenOverlay() || isNonEmptySearchInput(event.target);
+      }
+    },
+    {capture: true},
+  );
+
+  window.addEventListener('keydown', function(event) {
+    if (
+      shouldIgnoreEscape(event) ||
+      event.defaultPrevented ||
+      shouldIgnoreCaptureState
+    ) {
+      return;
+    }
+    const wasBlockedOnCapture = shouldIgnoreCaptureState;
+    queueMicrotask(function() {
+      if (event.defaultPrevented || wasBlockedOnCapture) {
+        return;
+      }
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({'type': 'escapeKey'}, '*');
+      }
+    });
+  });
+})();</script><script data-bard-client-injected="true">(function() {
+  function normalizeSlug(str) {
+    try {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^p{L}p{N}s_-]/gu, '')
+        .replace(/s+/g, '-');
+    } catch (e) {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9s_-]/g, '')
+        .replace(/s+/g, '-');
+    }
+  }
+
+  function findTargetElement(hash) {
+    if (!hash || hash === '#') {
+      return null;
+    }
+    const rawId = hash.startsWith('#') ? hash.slice(1) : hash;
+    let decodedId = rawId;
+    try {
+      decodedId = decodeURIComponent(rawId);
+    } catch (e) {
+      // Ignore URI malformed errors.
+    }
+
+    // 1. Direct ID match (raw and decoded).
+    let target = document.getElementById(rawId) || document.getElementById(decodedId);
+    if (target) {
+      return target;
+    }
+
+    // 2. Name attribute match (<a name="...">).
+    try {
+      if (typeof CSS !== 'undefined' && CSS.escape) {
+        target =
+          document.querySelector('[name="' + CSS.escape(rawId) + '"]') ||
+          document.querySelector('[name="' + CSS.escape(decodedId) + '"]');
+      } else {
+        const namedElements = document.getElementsByName(rawId);
+        if (namedElements && namedElements.length > 0) {
+          return namedElements[0];
+        }
+      }
+    } catch (e) {
+      // Ignore querySelector syntax errors.
+    }
+    if (target) {
+      return target;
+    }
+
+    // 3. Match heading text by slug (for Markdown TOCs where headings lack explicit IDs).
+    const targetSlug = normalizeSlug(decodedId);
+    if (targetSlug) {
+      for (const heading of document.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+        if (normalizeSlug(heading.textContent || '') === targetSlug) {
+          return heading;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    const anchor = target && typeof target.closest === 'function' ? target.closest('a') : null;
+    if (!anchor) {
+      return;
+    }
+
+    const href = anchor.getAttribute('href');
+    if (
+      !href ||
+      href.trim().toLowerCase().startsWith('javascript:') ||
+      anchor.hasAttribute('download')
+    ) {
+      return;
+    }
+
+    // Check if the link is an in-page hash / anchor link.
+    if (href.startsWith('#')) {
+      event.preventDefault();
+      const targetElement = findTargetElement(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+      return;
+    }
+
+    // Check if the URL has the same origin/pathname but with a hash.
+    try {
+      const url = new URL(anchor.href, window.location.href);
+      if (
+        url.hash &&
+        url.origin === window.location.origin &&
+        url.pathname === window.location.pathname
+      ) {
+        event.preventDefault();
+        const targetElement = findTargetElement(url.hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+        return;
+      }
+    } catch (e) {
+      // Fall through if URL parsing fails.
+    }
+
+    // For all external or full navigation links, prevent iframe-level navigation
+    // (which breaks in AGSA WebView or sandboxed iframes) and ensure they open
+    // safely in a new tab/window.
+    if (anchor.target !== '_blank') {
+      event.preventDefault();
+      window.open(anchor.href, '_blank', 'noopener,noreferrer');
+    }
+  }, {capture: true});
+})();</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Classe Frochhammer — Violon &amp; Piano</title>
+
+  <!-- Métadonnées PWA & Écran d'accueil (iOS / Android / GitHub Pages) -->
+  <meta name="description" content="Organisation des cours de violon de Félix Frochhammer, accompagnement piano de Stéphanie Gurga et auditions de classe.">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Classe Frochhammer">
+  <link rel="manifest" id="pwa-manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" id="apple-touch-icon">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Typographie éditoriale minimaliste : Inter + Newsreader -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            serif: ['Newsreader', 'Georgia', 'serif'],
+          },
+          colors: {
+            ink: '#0A0A0A',
+            paper: '#FFFFFF',
+            subtle: '#F6F6F6',
+            line: '#E4E4E4',
+            muted: '#6E6E6E',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Styles minimalistes noir & blanc et motifs architecturaux */
+    html, body {
+      background-color: #FFFFFF;
+      color: #0A0A0A;
+      font-family: 'Inter', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      overscroll-behavior-y: none;
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Motif hachuré subtil pour les pauses de Félix */
+    .pause-pattern {
+      background-color: #FAFAFA;
+      background-image: repeating-linear-gradient(
+        -45deg,
+        #FAFAFA,
+        #FAFAFA 7px,
+        #EFEFEF 7px,
+        #EFEFEF 14px
+      );
+    }
+
+    /* Masquer les barres de défilement horizontales sur les filtres */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Animation douce d'apparition */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-up {
+      animation: fadeUp 0.22s ease-out forwards;
+    }
+
+    /* Safe area pour iPhone avec encoche / barre d'accueil */
+    .pb-safe {
+      padding-bottom: max(1rem, env(safe-area-inset-bottom));
+    }
+    .pt-safe {
+      padding-top: max(0.75rem, env(safe-area-inset-top));
+    }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, -apple-system, BlinkMacSystemFont, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-right-1{right:-0.25rem}.-top-1{top:-0.25rem}.bottom-5{bottom:1.25rem}.left-1\/2{left:50%}.top-0{top:0px}.z-30{z-index:30}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mr-2{margin-right:-0.5rem}.ml-1{margin-left:0.25rem}.mt-1{margin-top:0.25rem}.mr-1\.5{margin-right:0.375rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:0.375rem}.h-16{height:4rem}.h-3\.5{height:0.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-9{height:2.25rem}.h-\[18px\]{height:18px}.max-h-\[90vh\]{max-height:90vh}.min-h-screen{min-height:100vh}.w-1\.5{width:0.375rem}.w-3\.5{width:0.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-9{width:2.25rem}.w-\[92\%\]{width:92%}.w-full{width:100%}.min-w-0{min-width:0px}.min-w-\[18px\]{min-width:18px}.max-w-3xl{max-width:48rem}.max-w-\[105px\]{max-width:105px}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.375rem * var(--tw-space-y-reverse))}.space-y-2\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.625rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:0.375rem}.rounded{border-radius:0.25rem}.rounded-t-3xl{border-top-left-radius:1.5rem;border-top-right-radius:1.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-line{--tw-border-opacity:1;border-color:rgb(228 228 228 / var(--tw-border-opacity, 1))}.border-line\/60{border-color:rgb(228 228 228 / 0.6)}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0 / var(--tw-border-opacity, 1))}.border-neutral-400{--tw-border-opacity:1;border-color:rgb(163 163 163 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-black\/50{background-color:rgb(0 0 0 / 0.5)}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.bg-subtle{--tw-bg-opacity:1;background-color:rgb(246 246 246 / var(--tw-bg-opacity, 1))}.p-0{padding:0px}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-1\.5{padding-left:0.375rem;padding-right:0.375rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-24{padding-bottom:6rem}.pl-3{padding-left:0.75rem}.pr-2\.5{padding-right:0.625rem}.pt-4{padding-top:1rem}.pb-1{padding-bottom:0.25rem}.pb-5{padding-bottom:1.25rem}.pt-0\.5{padding-top:0.125rem}.pt-1{padding-top:0.25rem}.pt-2{padding-top:0.5rem}.font-serif{font-family:Newsreader, Georgia, serif}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.tabular-nums{--tw-numeric-spacing:tabular-nums;font-variant-numeric:var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)}.leading-none{line-height:1}.leading-snug{line-height:1.375}.leading-relaxed{line-height:1.625}.tracking-\[0\.12em\]{letter-spacing:0.12em}.tracking-tight{letter-spacing:-0.025em}.tracking-\[0\.14em\]{letter-spacing:0.14em}.tracking-\[0\.1em\]{letter-spacing:0.1em}.tracking-wider{letter-spacing:0.05em}.text-ink{--tw-text-opacity:1;color:rgb(10 10 10 / var(--tw-text-opacity, 1))}.text-muted{--tw-text-opacity:1;color:rgb(110 110 110 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-75{opacity:0.75}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-black *::selection{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.selection\:bg-black::selection{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:border-black:hover{--tw-border-opacity:1;border-color:rgb(0 0 0 / var(--tw-border-opacity, 1))}.hover\:bg-neutral-800:hover{--tw-bg-opacity:1;background-color:rgb(38 38 38 / var(--tw-bg-opacity, 1))}.hover\:bg-subtle:hover{--tw-bg-opacity:1;background-color:rgb(246 246 246 / var(--tw-bg-opacity, 1))}.hover\:text-ink:hover{--tw-text-opacity:1;color:rgb(10 10 10 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width: 640px){.sm\:max-w-\[150px\]{max-width:150px}.sm\:max-w-lg{max-width:32rem}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-start{align-items:flex-start}.sm\:items-end{align-items:flex-end}.sm\:items-center{align-items:center}.sm\:gap-2{gap:0.5rem}.sm\:rounded-3xl{border-radius:1.5rem}.sm\:p-4{padding:1rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0px}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-base{font-size:1rem;line-height:1.5rem}}@media (min-width: 768px){.md\:inline{display:inline}}</style><script src="https://apis.google.com/js/api.js?onload=__iframefcb679001" type="text/javascript" charset="UTF-8" gapi_processed="true"></script></head>
+<body class="min-h-screen flex flex-col bg-white text-ink antialiased selection:bg-black selection:text-white">
+
+  <!-- ==================== EN-TÊTE FIXE ==================== -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-line pt-safe">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-2">
+      <!-- Identité de la classe -->
+      <div class="flex items-center gap-3 min-w-0">
+        <div class="w-9 h-9 rounded-xl bg-black text-white flex items-center justify-center shrink-0 shadow-sm" aria-hidden="true">
+          <!-- Ouïe de violon minimaliste (SVG) -->
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 4c-1.5 0-2.5 1.2-2.8 3.2L10.8 16.8c-.3 2-1.3 3.2-2.8 3.2"></path>
+            <circle cx="15.3" cy="5.2" r="1.1" fill="currentColor"></circle>
+            <circle cx="7.7" cy="18.8" r="1.1" fill="currentColor"></circle>
+            <path d="M9.5 11.5h4"></path>
+          </svg>
+        </div>
+        <div class="min-w-0">
+          <h1 class="font-serif text-lg sm:text-xl font-medium tracking-tight leading-none truncate">
+            Classe Frochhammer
+          </h1>
+          <div class="flex items-center gap-2 mt-1">
+            <p class="text-[11px] uppercase tracking-[0.12em] text-muted truncate">
+              Violon · Piano · Auditions
+            </p>
+            <span id="sync-status-pill" class="inline-flex items-center gap-1 text-[10px] font-medium text-muted shrink-0">
+              <span id="sync-status-dot" class="w-1.5 h-1.5 rounded-full bg-black animate-pulse"></span>
+              <span id="sync-status-text">En direct</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions rapides : PWA/GitHub, Notifications, Profil actif -->
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <!-- Bouton Installation PWA / GitHub Pages -->
+        <button id="btn-open-pwa" type="button" title="Installer sur l'écran d'accueil / GitHub Pages" class="p-2.5 rounded-xl border border-line hover:border-black transition-colors active:scale-95 text-ink" aria-label="Installer l'application">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v12"></path>
+            <path d="m7 10 5 5 5-5"></path>
+            <path d="M5 21h14"></path>
+          </svg>
+        </button>
+
+        <!-- Bouton Notifications -->
+        <button id="btn-open-notifs" type="button" title="Alertes et notifications" class="relative p-2.5 rounded-xl border border-line hover:border-black transition-colors active:scale-95 text-ink" aria-label="Notifications">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path>
+            <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path>
+          </svg>
+          <span id="notif-badge" class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-black text-white text-[10px] font-semibold flex items-center justify-center tabular-nums">1</span>
+        </button>
+
+        <!-- Sélecteur de profil actif -->
+        <button id="btn-open-profile" type="button" class="flex items-center gap-2 pl-3 pr-2.5 py-2 rounded-xl bg-black text-white text-xs sm:text-sm font-medium hover:bg-neutral-800 transition-colors active:scale-95">
+          <span id="current-user-label" class="max-w-[105px] sm:max-w-[150px] truncate">Félix Frochhammer</span>
+          <svg class="w-3.5 h-3.5 opacity-75 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Navigation principale (Desktop & Mobile) -->
+    <nav class="max-w-3xl mx-auto px-4 sm:px-6 border-t border-line/60" aria-label="Navigation principale">
+      <div class="grid grid-cols-4 gap-1 py-1.5">
+        <button type="button" data-tab="violin" class="nav-tab flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 py-2 px-2 rounded-xl text-xs sm:text-sm font-medium transition-all bg-black text-white">
+          <span>Violon</span>
+          <span class="hidden md:inline text-[11px] opacity-75">· F. Frochhammer</span>
+        </button>
+        <button type="button" data-tab="piano" class="nav-tab flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 py-2 px-2 rounded-xl text-xs sm:text-sm font-medium transition-all text-muted hover:text-ink hover:bg-subtle">
+          <span>Piano</span>
+          <span class="hidden md:inline text-[11px] opacity-75">· S. Gurga</span>
+        </button>
+        <button type="button" data-tab="auditions" class="nav-tab flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 py-2 px-2 rounded-xl text-xs sm:text-sm font-medium transition-all text-muted hover:text-ink hover:bg-subtle">
+          <span>Auditions</span>
+        </button>
+        <button type="button" data-tab="swaps" class="nav-tab relative flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 py-2 px-2 rounded-xl text-xs sm:text-sm font-medium transition-all text-muted hover:text-ink hover:bg-subtle">
+          <span>Échanges</span>
+          <span id="tab-swap-badge" class="hidden ml-1 px-1.5 py-0.2 rounded-full bg-black text-white text-[10px] font-semibold tabular-nums">0</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== BANNIÈRE D'ALERTE ÉCHANGE EN ATTENTE ==================== -->
+  <div id="pending-swap-banner" class="hidden max-w-3xl w-full mx-auto px-4 sm:px-6 pt-4"></div>
+
+  <!-- ==================== CONTENU PRINCIPAL ==================== -->
+  <main id="app-content" class="flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 py-6 pb-24"></main>
+
+  <!-- ==================== MODAL UNIVERSEL ==================== -->
+  <div id="modal-backdrop" class="fixed inset-0 z-50 bg-black/50 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 hidden" role="dialog" aria-modal="true">
+    <div id="modal-container" class="w-full sm:max-w-lg bg-white rounded-t-3xl sm:rounded-3xl border border-line shadow-2xl max-h-[90vh] flex flex-col overflow-hidden animate-fade-up">
+      <div class="px-6 py-4 border-b border-line flex items-center justify-between shrink-0">
+        <h2 id="modal-title" class="font-serif text-xl font-medium">PWA &amp; Déploiement GitHub Pages</h2>
+        <button id="modal-close" type="button" class="p-2 -mr-2 rounded-xl text-muted hover:text-ink hover:bg-subtle transition-colors" aria-label="Fermer">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div id="modal-body" class="p-6 overflow-y-auto space-y-5"></div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST DE CONFIRMATION ==================== -->
+  <div id="toast-container" class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 pointer-events-none w-[92%] max-w-md flex flex-col items-center gap-2"></div>
+
+  <!-- ==================== LOGIQUE DE L'APPLICATION ==================== -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+    import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+    import { getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection, getDocs } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+    /**
+     * =========================================================================
+     * CONFIGURATION FIREBASE POUR GITHUB PAGES (À REMPLIR UNE SEULE FOIS)
+     * =========================================================================
+     * 1. Créez un projet gratuit sur https://console.firebase.google.com
+     * 2. Activez Authentication -> Sign-in method -> Anonyme
+     * 3. Activez Firestore Database
+     * 4. Copiez les clés de votre application Web ci-dessous :
+     */
+    const GITHUB_FIREBASE_CONFIG = {
+      apiKey: "",
+      authDomain: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
+    };
+
+    /**
+     * Application PWA — Classe de violon de Félix Frochhammer & Piano Stéphanie Gurga
+     * Architecture : Synchronisation temps réel multi-appareils avec repli local,
+     * Manifeste PWA (manifest.json) & Service Worker (sw.js) prêts pour GitHub Pages.
+     */
+
+    // =========================================================================
+    // 1. INITIALISATION PWA (MANIFEST, ICÔNE APPLE & SERVICE WORKER sw.js)
+    // =========================================================================
+    function getManifestObject() {
+      const svgIconDataUri = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%230A0A0A'/%3E%3Cpath d='M320 96c-32 0-54 26-60 68l-30 204c-6 42-28 68-60 68' fill='none' stroke='%23FFFFFF' stroke-width='28' stroke-linecap='round'/%3E%3Ccircle cx='326' cy='122' r='22' fill='%23FFFFFF'/%3E%3Ccircle cx='164' cy='410' r='22' fill='%23FFFFFF'/%3E%3Cpath d='M204 256h86' stroke='%23FFFFFF' stroke-width='24' stroke-linecap='round'/%3E%3C/svg%3E";
+      return {
+        name: 'Classe de Violon — Félix Frochhammer',
+        short_name: 'Classe Violon',
+        description: 'Planning des cours de violon (Félix Frochhammer), accompagnement piano (Stéphanie Gurga) et auditions de classe.',
+        start_url: './index.html',
+        scope: './',
+        display: 'standalone',
+        background_color: '#FFFFFF',
+        theme_color: '#0A0A0A',
+        orientation: 'portrait-primary',
+        icons: [
+          {
+            src: svgIconDataUri,
+            sizes: '192x192 512x512',
+            type: 'image/svg+xml',
+            purpose: 'any maskable'
+          }
+        ]
+      };
+    }
+
+    function getServiceWorkerSource() {
+      return `// Service Worker — Classe Frochhammer (PWA GitHub Pages)
+const CACHE_NAME = 'classe-frochhammer-pwa-v1';
+const APP_SHELL = [
+  './',
+  './index.html',
+  './manifest.json'
+];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL))
+  );
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+      )
+    )
+  );
+  self.clients.claim();
+});
+
+self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
+  const url = new URL(event.request.url);
+  if (url.hostname.includes('googleapis.com') || url.hostname.includes('firebaseio.com')) {
+    return;
+  }
+  event.respondWith(
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const clone = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return networkResponse;
+      })
+      .catch(() => caches.match(event.request))
+  );
+});
+`;
+    }
+
+    (function setupPWA() {
+      try {
+        const isPreviewSandbox = window.location.protocol === 'blob:' || window.location.hostname.includes('googleusercontent');
+
+        // En aperçu isolé, injecte un manifest Blob ; sur GitHub Pages, utilise ./manifest.json
+        const manifestLink = document.getElementById('pwa-manifest');
+        if (manifestLink && isPreviewSandbox) {
+          const manifestBlob = new Blob([JSON.stringify(getManifestObject(), null, 2)], { type: 'application/manifest+json' });
+          manifestLink.href = URL.createObjectURL(manifestBlob);
+        }
+
+        // Génération d'une icône PNG 180x180 via Canvas pour iOS Safari ("Sur l'écran d'accueil")
+        const canvas = document.createElement('canvas');
+        canvas.width = 180;
+        canvas.height = 180;
+        const ctx = canvas.getContext('2d');
+        if (ctx) {
+          ctx.fillStyle = '#0A0A0A';
+          ctx.fillRect(0, 0, 180, 180);
+          ctx.strokeStyle = '#FFFFFF';
+          ctx.lineWidth = 10;
+          ctx.lineCap = 'round';
+          ctx.beginPath();
+          ctx.moveTo(112, 34);
+          ctx.bezierCurveTo(96, 34, 92, 52, 88, 76);
+          ctx.lineTo(80, 124);
+          ctx.bezierCurveTo(76, 148, 72, 166, 56, 166);
+          ctx.stroke();
+
+          ctx.fillStyle = '#FFFFFF';
+          ctx.beginPath();
+          ctx.arc(114, 43, 8, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.beginPath();
+          ctx.arc(58, 157, 8, 0, Math.PI * 2);
+          ctx.fill();
+
+          ctx.beginPath();
+          ctx.moveTo(72, 95);
+          ctx.lineTo(102, 95);
+          ctx.stroke();
+
+          const appleLink = document.getElementById('apple-touch-icon');
+          if (appleLink) {
+            appleLink.href = canvas.toDataURL('image/png');
+          }
+        }
+
+        // Enregistrement du fichier réel ./sw.js lorsque déployé sur GitHub Pages (HTTPS)
+        if ('serviceWorker' in navigator && !isPreviewSandbox && (window.location.protocol === 'https:' || window.location.hostname === 'localhost')) {
+          navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => {
+            // Silencieux si sw.js n'est pas encore déposé à la racine
+          });
+        }
+      } catch (err) {
+        console.warn('Initialisation PWA partielle:', err);
+      }
+    })();
+
+    // Capture de l'événement d'installation native Chrome / Android
+    let deferredInstallPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredInstallPrompt = e;
+    });
+
+    // =========================================================================
+    // 2. ÉTAT DE L'APPLICATION (DONNÉES EN MÉMOIRE)
+    // =========================================================================
+    const state = {
+      activeTab: 'violin', // 'violin' | 'piano' | 'auditions' | 'swaps'
+      selectedDateFilter: 'all', // 'all' ou 'YYYY-MM-DD'
+      currentUserId: 'felix', // Permet de tester immédiatement Félix, Stéphanie ou un élève
+
+      // Membres de la classe
+      users: [
+        { id: 'felix', name: 'Félix Frochhammer', role: 'prof', subtitle: 'Professeur de violon' },
+        { id: 'stephanie', name: 'Stéphanie Gurga', role: 'piano', subtitle: 'Accompagnatrice piano' },
+        { id: 'clara', name: 'Clara Moreau', role: 'student', subtitle: 'Master 1 — Violon' },
+        { id: 'lucas', name: 'Lucas Meyer', role: 'student', subtitle: 'Bachelor 3 — Violon' },
+        { id: 'camille', name: 'Camille Favre', role: 'student', subtitle: 'Master 2 — Violon' },
+        { id: 'emile', name: 'Émile Rochat', role: 'student', subtitle: 'Bachelor 2 — Violon' }
+      ],
+
+      // Créneaux de cours de violon (Félix Frochhammer) — cours + pauses personnalisées
+      violinSlots: [
+        {
+          id: 'v1',
+          date: '2026-11-26',
+          startTime: '09:00',
+          duration: 90,
+          type: 'lesson',
+          studentId: 'clara',
+          repertoire: 'J. Brahms — Sonate n°1 en sol majeur, Op. 78 (1er & 2e mvts)',
+          notes: 'Travail des transitions et sonorité dans le grave'
+        },
+        {
+          id: 'v2',
+          date: '2026-11-26',
+          startTime: '10:30',
+          duration: 20,
+          type: 'break',
+          breakLabel: 'Pause café / Respiration',
+          studentId: null,
+          repertoire: '',
+          notes: ''
+        },
+        {
+          id: 'v3',
+          date: '2026-11-26',
+          startTime: '10:50',
+          duration: 90,
+          type: 'lesson',
+          studentId: 'lucas',
+          repertoire: 'J.S. Bach — Partita n°2 en ré mineur (Allemande & Courante)',
+          notes: ''
+        },
+        {
+          id: 'v4',
+          date: '2026-11-26',
+          startTime: '14:00',
+          duration: 60,
+          type: 'lesson',
+          studentId: null,
+          repertoire: '',
+          notes: ''
+        },
+        {
+          id: 'v5',
+          date: '2026-11-26',
+          startTime: '15:00',
+          duration: 45,
+          type: 'lesson',
+          studentId: null,
+          repertoire: '',
+          notes: ''
+        },
+        {
+          id: 'v6',
+          date: '2026-11-27',
+          startTime: '10:00',
+          duration: 90,
+          type: 'lesson',
+          studentId: 'camille',
+          repertoire: 'J. Sibelius — Concerto en ré mineur, Op. 47 (1er mvt)',
+          notes: 'Avec préparation cadence'
+        },
+        {
+          id: 'v7',
+          date: '2026-11-27',
+          startTime: '11:30',
+          duration: 90,
+          type: 'lesson',
+          studentId: null,
+          repertoire: '',
+          notes: ''
+        }
+      ],
+
+      // Créneaux d'accompagnement piano (Stéphanie Gurga)
+      pianoSlots: [
+        {
+          id: 'p1',
+          date: '2026-11-26',
+          startTime: '11:00',
+          duration: 45,
+          type: 'lesson',
+          room: 'Salle 14 — Steinway',
+          studentId: 'clara',
+          sessionType: 'Répétition piano seul',
+          repertoire: 'J. Brahms — Sonate n°1 en sol majeur, Op. 78'
+        },
+        {
+          id: 'p2',
+          date: '2026-11-26',
+          startTime: '11:45',
+          duration: 45,
+          type: 'lesson',
+          room: 'Salle 14 — Steinway',
+          studentId: null,
+          sessionType: '',
+          repertoire: ''
+        },
+        {
+          id: 'p3',
+          date: '2026-11-26',
+          startTime: '14:00',
+          duration: 60,
+          type: 'lesson',
+          room: 'Studio Violon',
+          studentId: 'emile',
+          sessionType: 'Accompagnement pendant le cours de Félix',
+          repertoire: 'W.A. Mozart — Concerto n°4 en ré majeur, K. 218'
+        },
+        {
+          id: 'p4',
+          date: '2026-11-27',
+          startTime: '13:30',
+          duration: 45,
+          type: 'lesson',
+          room: 'Salle 14 — Steinway',
+          studentId: null,
+          sessionType: '',
+          repertoire: ''
+        }
+      ],
+
+      // Auditions de classe
+      auditions: [
+        {
+          id: 'a1',
+          title: 'Audition de classe — Préparation Examens d’hiver',
+          date: '2026-12-04',
+          time: '17:30',
+          location: 'Auditorium Principal',
+          description: 'Filage en conditions de concert avec Stéphanie Gurga au piano. Tenue de scène souhaitée.',
+          performers: [
+            {
+              id: 'perf1',
+              studentId: 'clara',
+              piece: 'J. Brahms — Sonate n°1 en sol majeur, Op. 78 (1er mvt)',
+              durationMinutes: 11,
+              withPiano: true
+            },
+            {
+              id: 'perf2',
+              studentId: 'camille',
+              piece: 'J. Sibelius — Concerto en ré mineur, Op. 47 (1er mvt)',
+              durationMinutes: 16,
+              withPiano: true
+            },
+            {
+              id: 'perf3',
+              studentId: 'lucas',
+              piece: 'J.S. Bach — Chaconne en ré mineur, BWV 1004',
+              durationMinutes: 14,
+              withPiano: false
+            }
+          ]
+        }
+      ],
+
+      // Propositions d'échanges d'horaires entre élèves
+      swaps: [
+        {
+          id: 's1',
+          category: 'violin', // 'violin' | 'piano'
+          fromStudentId: 'lucas',
+          toStudentId: 'clara',
+          targetSlotId: 'v1', // Créneau détenu par Clara (09:00)
+          offeredSlotId: 'v3', // Créneau détenu par Lucas (10:50)
+          message: 'Bonjour Clara, j’ai un cours théorique obligatoire à 11h jeudi. Accepterais-tu d’échanger ton créneau de 09h00 avec le mien de 10h50 ?',
+          status: 'pending', // 'pending' | 'accepted' | 'declined'
+          createdAt: 'Il y a 18 min',
+          createdAtMs: 1700000000000
+        }
+      ],
+
+      // Centre de notifications
+      notifications: [
+        {
+          id: 'n1',
+          targetUserId: 'clara',
+          title: 'Proposition d’échange d’horaire',
+          body: 'Lucas Meyer souhaite échanger son cours de violon de 10h50 avec le vôtre de 09h00 (Jeudi 26 nov.).',
+          time: 'Il y a 18 min',
+          createdAtMs: 1700000000000,
+          read: false
+        },
+        {
+          id: 'n2',
+          targetUserId: 'felix',
+          title: 'Inscription confirmée',
+          body: 'Clara Moreau s’est inscrite sur le créneau de 09h00 (Jeudi 26 nov.) — Brahms, Sonate n°1.',
+          time: 'Hier',
+          createdAtMs: 1699900000000,
+          read: false
+        },
+        {
+          id: 'n3',
+          targetUserId: 'stephanie',
+          title: 'Nouvelle réservation piano',
+          body: 'Émile Rochat a réservé le créneau de 14h00 (Jeudi 26 nov.) pour un accompagnement pendant le cours.',
+          time: 'Hier',
+          createdAtMs: 1699800000000,
+          read: false
+        }
+      ]
+    };
+
+    // =========================================================================
+    // 2B. SYNCHRONISATION EN TEMPS RÉEL PARTAGÉE
+    // =========================================================================
+    const appId = typeof __app_id !== 'undefined' ? __app_id : 'classe-frochhammer-default';
+    let db = null;
+    let auth = null;
+    let authUser = null;
+    let isCloudConnected = false;
+
+    function updateSyncIndicator(connected, labelText) {
+      isCloudConnected = connected;
+      const dot = document.getElementById('sync-status-dot');
+      const txt = document.getElementById('sync-status-text');
+      if (dot) {
+        dot.className = connected
+          ? 'w-1.5 h-1.5 rounded-full bg-black animate-pulse'
+          : 'w-1.5 h-1.5 rounded-full bg-neutral-400';
+      }
+      if (txt) {
+        txt.textContent = labelText;
+      }
+    }
+
+    function getPublicCollectionRef(colName) {
+      return collection(db, 'artifacts', appId, 'public', 'data', colName);
+    }
+
+    function getPublicDocRef(colName, docId) {
+      return doc(db, 'artifacts', appId, 'public', 'data', colName, docId);
+    }
+
+    async function saveDocToCloud(colName, docId, data) {
+      if (!db || !authUser) return;
+      try {
+        await setDoc(getPublicDocRef(colName, docId), data);
+      } catch (err) {
+        console.error(`Erreur d'enregistrement (${colName}/${docId}):`, err);
+      }
+    }
+
+    async function deleteDocFromCloud(colName, docId) {
+      if (!db || !authUser) return;
+      try {
+        await deleteDoc(getPublicDocRef(colName, docId));
+      } catch (err) {
+        console.error(`Erreur de suppression (${colName}/${docId}):`, err);
+      }
+    }
+
+    async function seedInitialDataIfEmpty() {
+      if (!db || !authUser) return;
+      const usersSnap = await getDocs(getPublicCollectionRef('users'));
+      if (!usersSnap.empty) return;
+
+      const tasks = [];
+      state.users.forEach(u => tasks.push(saveDocToCloud('users', u.id, u)));
+      state.violinSlots.forEach(s => tasks.push(saveDocToCloud('violinSlots', s.id, s)));
+      state.pianoSlots.forEach(s => tasks.push(saveDocToCloud('pianoSlots', s.id, s)));
+      state.auditions.forEach(a => tasks.push(saveDocToCloud('auditions', a.id, a)));
+      state.swaps.forEach(sw => tasks.push(saveDocToCloud('swaps', sw.id, sw)));
+      state.notifications.forEach(n => tasks.push(saveDocToCloud('notifications', n.id, n)));
+      await Promise.all(tasks);
+    }
+
+    async function initRealtimeSync() {
+      try {
+        let activeFirebaseConfig = null;
+
+        if (typeof __firebase_config !== 'undefined' && __firebase_config) {
+          activeFirebaseConfig = JSON.parse(__firebase_config);
+        } else if (GITHUB_FIREBASE_CONFIG && GITHUB_FIREBASE_CONFIG.apiKey && GITHUB_FIREBASE_CONFIG.projectId) {
+          activeFirebaseConfig = GITHUB_FIREBASE_CONFIG;
+        }
+
+        if (!activeFirebaseConfig) {
+          updateSyncIndicator(false, 'Mode local');
+          return;
+        }
+
+        const app = initializeApp(activeFirebaseConfig);
+        auth = getAuth(app);
+        db = getFirestore(app);
+
+        // Authentification préalable obligatoire avant toute requête
+        if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+          await signInWithCustomToken(auth, __initial_auth_token);
+        } else {
+          await signInAnonymously(auth);
+        }
+
+        authUser = auth.currentUser;
+        if (!authUser) {
+          updateSyncIndicator(false, 'Mode local');
+          return;
+        }
+
+        await seedInitialDataIfEmpty();
+
+        // Écouteurs temps réel sur chaque collection partagée (sans requête composée)
+        onSnapshot(
+          getPublicCollectionRef('users'),
+          (snap) => {
+            if (!snap.empty) {
+              state.users = snap.docs.map(d => d.data());
+              if (!state.users.some(u => u.id === state.currentUserId) && state.users.length > 0) {
+                state.currentUserId = state.users[0].id;
+              }
+              renderApp();
+            }
+          },
+          (err) => console.error('Erreur écoute users:', err)
+        );
+
+        onSnapshot(
+          getPublicCollectionRef('violinSlots'),
+          (snap) => {
+            state.violinSlots = snap.docs.map(d => d.data());
+            renderApp();
+          },
+          (err) => console.error('Erreur écoute violinSlots:', err)
+        );
+
+        onSnapshot(
+          getPublicCollectionRef('pianoSlots'),
+          (snap) => {
+            state.pianoSlots = snap.docs.map(d => d.data());
+            renderApp();
+          },
+          (err) => console.error('Erreur écoute pianoSlots:', err)
+        );
+
+        onSnapshot(
+          getPublicCollectionRef('auditions'),
+          (snap) => {
+            state.auditions = snap.docs.map(d => d.data());
+            renderApp();
+          },
+          (err) => console.error('Erreur écoute auditions:', err)
+        );
+
+        onSnapshot(
+          getPublicCollectionRef('swaps'),
+          (snap) => {
+            state.swaps = snap.docs
+              .map(d => d.data())
+              .sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
+            renderApp();
+          },
+          (err) => console.error('Erreur écoute swaps:', err)
+        );
+
+        onSnapshot(
+          getPublicCollectionRef('notifications'),
+          (snap) => {
+            state.notifications = snap.docs
+              .map(d => d.data())
+              .sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
+            renderApp();
+          },
+          (err) => console.error('Erreur écoute notifications:', err)
+        );
+
+        updateSyncIndicator(true, 'En direct');
+      } catch (err) {
+        console.warn('Synchronisation indisponible, bascule en mode local:', err);
+        updateSyncIndicator(false, 'Mode local');
+      }
+    }
+
+    // =========================================================================
+    // 3. UTILITAIRES DE FORMATAGE & CALCUL HORAIRE
+    // =========================================================================
+    function getCurrentUser() {
+      return state.users.find(u => u.id === state.currentUserId) || state.users[0];
+    }
+
+    function getUserById(id) {
+      return state.users.find(u => u.id === id) || null;
+    }
+
+    function uid(prefix = 'id') {
+      return `${prefix}_${Math.random().toString(36).slice(2, 9)}`;
+    }
+
+    function timeToMinutes(timeStr) {
+      const [h, m] = timeStr.split(':').map(Number);
+      return (h || 0) * 60 + (m || 0);
+    }
+
+    function minutesToTime(totalMinutes) {
+      const clamped = ((totalMinutes % 1440) + 1440) % 1440;
+      const h = Math.floor(clamped / 60);
+      const m = clamped % 60;
+      return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+    }
+
+    function addMinutesToTime(timeStr, minutesToAdd) {
+      return minutesToTime(timeToMinutes(timeStr) + Number(minutesToAdd));
+    }
+
+    function formatDuration(mins) {
+      const m = Number(mins);
+      if (m < 60) return `${m} min`;
+      const h = Math.floor(m / 60);
+      const rem = m % 60;
+      return rem === 0 ? `${h}h00` : `${h}h${String(rem).padStart(2, '0')}`;
+    }
+
+    function formatDateFr(dateStr) {
+      if (!dateStr) return '';
+      const [y, m, d] = dateStr.split('-').map(Number);
+      const dateObj = new Date(y, m - 1, d);
+      const formatted = dateObj.toLocaleDateString('fr-FR', {
+        weekday: 'long',
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+      return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+    }
+
+    function formatShortDateFr(dateStr) {
+      if (!dateStr) return '';
+      const [y, m, d] = dateStr.split('-').map(Number);
+      const dateObj = new Date(y, m - 1, d);
+      const formatted = dateObj.toLocaleDateString('fr-FR', {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short'
+      });
+      return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function sortSlots(slots) {
+      return [...slots].sort((a, b) => {
+        if (a.date !== b.date) return a.date.localeCompare(b.date);
+        return timeToMinutes(a.startTime) - timeToMinutes(b.startTime);
+      });
+    }
+
+    function addNotification(targetUserId, title, body) {
+      const notif = {
+        id: uid('notif'),
+        targetUserId,
+        title,
+        body,
+        time: 'À l’instant',
+        createdAtMs: Date.now(),
+        read: false
+      };
+      state.notifications.unshift(notif);
+      saveDocToCloud('notifications', notif.id, notif);
+    }
+
+    // Toast discret en bas de l'écran (remplace alert/confirm)
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      const el = document.createElement('div');
+      el.className = 'bg-black text-white text-xs sm:text-sm font-medium px-4 py-3 rounded-2xl shadow-xl border border-neutral-800 animate-fade-up text-center';
+      el.textContent = message;
+      container.appendChild(el);
+      setTimeout(() => {
+        el.style.opacity = '0';
+        el.style.transition = 'opacity 0.25s ease';
+        setTimeout(() => el.remove(), 260);
+      }, 3000);
+    }
+
+    // =========================================================================
+    // 4. GESTION DU MODAL UNIVERSEL
+    // =========================================================================
+    function openModal(title, bodyHtml) {
+      document.getElementById('modal-title').textContent = title;
+      document.getElementById('modal-body').innerHTML = bodyHtml;
+      document.getElementById('modal-backdrop').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('modal-backdrop').classList.add('hidden');
+      document.getElementById('modal-body').innerHTML = '';
+    }
+
+    document.getElementById('modal-close').addEventListener('click', closeModal);
+    document.getElementById('modal-backdrop').addEventListener('click', (e) => {
+      if (e.target.id === 'modal-backdrop') closeModal();
+    });
+
+    // =========================================================================
+    // 5. RENDU GLOBAL & NAVIGATION
+    // =========================================================================
+    function renderApp() {
+      const user = getCurrentUser();
+
+      // Mise à jour du bouton profil actif
+      document.getElementById('current-user-label').textContent = user.name;
+
+      // Mise à jour des badges de notifications & échanges
+      const unreadCount = state.notifications.filter(
+        n => (n.targetUserId === user.id || n.targetUserId === 'all') && !n.read
+      ).length;
+      const notifBadge = document.getElementById('notif-badge');
+      if (unreadCount > 0) {
+        notifBadge.textContent = unreadCount;
+        notifBadge.classList.remove('hidden');
+      } else {
+        notifBadge.classList.add('hidden');
+      }
+
+      const pendingIncomingSwaps = state.swaps.filter(
+        s => s.status === 'pending' && s.toStudentId === user.id
+      );
+      const tabSwapBadge = document.getElementById('tab-swap-badge');
+      if (pendingIncomingSwaps.length > 0) {
+        tabSwapBadge.textContent = pendingIncomingSwaps.length;
+        tabSwapBadge.classList.remove('hidden');
+      } else {
+        tabSwapBadge.classList.add('hidden');
+      }
+
+      // Bannière d'alerte immédiate si l'élève connecté a une proposition d'échange
+      const banner = document.getElementById('pending-swap-banner');
+      if (pendingIncomingSwaps.length > 0) {
+        const swap = pendingIncomingSwaps[0];
+        const sender = getUserById(swap.fromStudentId);
+        const list = swap.category === 'violin' ? state.violinSlots : state.pianoSlots;
+        const targetSlot = list.find(sl => sl.id === swap.targetSlotId);
+        const offeredSlot = list.find(sl => sl.id === swap.offeredSlotId);
+
+        banner.classList.remove('hidden');
+        banner.innerHTML = `
+          <div class="p-4 rounded-2xl bg-black text-white shadow-md flex flex-col sm:flex-row sm:items-center justify-between gap-3 animate-fade-up">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="inline-block w-2 h-2 rounded-full bg-white animate-pulse"></span>
+                <span class="text-[11px] uppercase tracking-wider font-semibold opacity-80">
+                  Proposition d'échange (${swap.category === 'violin' ? 'Violon' : 'Piano'})
+                </span>
+              </div>
+              <p class="text-sm font-medium">
+                <strong>${escapeHtml(sender?.name || 'Un élève')}</strong> propose d'échanger son créneau de
+                <span class="underline">${offeredSlot ? offeredSlot.startTime : ''}</span>
+                contre le vôtre de <span class="underline">${targetSlot ? targetSlot.startTime : ''}</span>.
+              </p>
+              ${swap.message ? `<p class="text-xs text-neutral-300 italic">« ${escapeHtml(swap.message)} »</p>` : ''}
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <button
+                type="button"
+                onclick="respondToSwap('${swap.id}', true)"
+                class="px-3.5 py-2 rounded-xl bg-white text-black text-xs font-semibold hover:bg-neutral-200 transition-colors active:scale-95"
+              >Accepter</button>
+              <button
+                type="button"
+                onclick="respondToSwap('${swap.id}', false)"
+                class="px-3.5 py-2 rounded-xl border border-neutral-600 text-white text-xs font-medium hover:bg-neutral-900 transition-colors active:scale-95"
+              >Refuser</button>
+            </div>
+          </div>
+        `;
+      } else {
+        banner.classList.add('hidden');
+        banner.innerHTML = '';
+      }
+
+      // Mise à jour de l'état visuel des onglets
+      document.querySelectorAll('.nav-tab').forEach(btn => {
+        const isActive = btn.dataset.tab === state.activeTab;
+        if (isActive) {
+          btn.classList.add('bg-black', 'text-white');
+          btn.classList.remove('text-muted', 'hover:text-ink', 'hover:bg-subtle');
+        } else {
+          btn.classList.remove('bg-black', 'text-white');
+          btn.classList.add('text-muted', 'hover:text-ink', 'hover:bg-subtle');
+        }
+      });
+
+      // Rendu du contenu de l'onglet actif
+      const main = document.getElementById('app-content');
+      if (state.activeTab === 'violin') {
+        main.innerHTML = renderScheduleView('violin');
+      } else if (state.activeTab === 'piano') {
+        main.innerHTML = renderScheduleView('piano');
+      } else if (state.activeTab === 'auditions') {
+        main.innerHTML = renderAuditionsView();
+      } else if (state.activeTab === 'swaps') {
+        main.innerHTML = renderSwapsView();
+      }
+    }
+
+    // Écouteurs des onglets
+    document.querySelectorAll('.nav-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.activeTab = btn.dataset.tab;
+        state.selectedDateFilter = 'all';
+        renderApp();
+      });
+    });
+
+    // =========================================================================
+    // 6. VUE PLANNING : VIOLON (FÉLIX) & PIANO (STÉPHANIE)
+    // =========================================================================
+    function renderScheduleView(category) {
+      const isViolin = category === 'violin';
+      const user = getCurrentUser();
+      const rawSlots = isViolin ? state.violinSlots : state.pianoSlots;
+      const sorted = sortSlots(rawSlots);
+
+      // Extraction des dates uniques pour les filtres rapides
+      const uniqueDates = [...new Set(sorted.map(s => s.date))];
+      if (state.selectedDateFilter !== 'all' && !uniqueDates.includes(state.selectedDateFilter)) {
+        state.selectedDateFilter = 'all';
+      }
+
+      const filteredSlots = state.selectedDateFilter === 'all'
+        ? sorted
+        : sorted.filter(s => s.date === state.selectedDateFilter);
+
+      // Regroupement par date
+      const groupedByDate = {};
+      filteredSlots.forEach(slot => {
+        if (!groupedByDate[slot.date]) groupedByDate[slot.date] = [];
+        groupedByDate[slot.date].push(slot);
+      });
+
+      // Droits d'édition du planning
+      const canManageSchedule = isViolin
+        ? (user.role === 'prof')
+        : (user.role === 'piano' || user.role === 'prof');
+
+      const teacherName = isViolin ? 'Félix Frochhammer' : 'Stéphanie Gurga';
+      const teacherSubtitle = isViolin
+        ? 'Cours de violon (45 min, 1h00, 1h30) & gestion des pauses'
+        : 'Accompagnement piano — répétitions individuelles ou avec cours';
+
+      return `
+        <section class="space-y-6 animate-fade-up">
+          <!-- En-tête de section -->
+          <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-line pb-5">
+            <div>
+              <span class="text-[11px] uppercase tracking-[0.14em] text-muted font-semibold">
+                ${isViolin ? 'Classe de Violon' : 'Accompagnement Piano'}
+              </span>
+              <h2 class="font-serif text-2xl sm:text-3xl font-medium mt-1">${teacherName}</h2>
+              <p class="text-xs sm:text-sm text-muted mt-1">${teacherSubtitle}</p>
+            </div>
+
+            ${canManageSchedule ? `
+              <div class="flex items-center gap-2 shrink-0">
+                ${isViolin ? `
+                  <button
+                    type="button"
+                    onclick="openAddSlotModal('violin', 'break')"
+                    class="px-3.5 py-2.5 rounded-xl border border-black text-ink text-xs sm:text-sm font-medium hover:bg-subtle transition-colors active:scale-95"
+                  >
+                    + Pause
+                  </button>
+                ` : ''}
+                <button
+                  type="button"
+                  onclick="openAddSlotModal('${category}', 'lesson')"
+                  class="px-4 py-2.5 rounded-xl bg-black text-white text-xs sm:text-sm font-medium hover:bg-neutral-800 transition-colors active:scale-95 shadow-xs"
+                >
+                  + Ajouter un créneau
+                </button>
+              </div>
+            ` : `
+              <div class="text-xs text-muted bg-subtle px-3 py-2 rounded-xl border border-line">
+                Inscrivez-vous sur un créneau libre ou proposez un échange
+              </div>
+            `}
+          </div>
+
+          <!-- Filtres par date -->
+          ${uniqueDates.length > 0 ? `
+            <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
+              <button
+                type="button"
+                onclick="setDateFilter('all')"
+                class="px-3.5 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
+                  state.selectedDateFilter === 'all'
+                    ? 'bg-black text-white'
+                    : 'bg-subtle text-muted hover:text-ink border border-line'
+                }"
+              >
+                Toutes les dates (${sorted.filter(s => s.type !== 'break').length})
+              </button>
+              ${uniqueDates.map(d => `
+                <button
+                  type="button"
+                  onclick="setDateFilter('${d}')"
+                  class="px-3.5 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
+                    state.selectedDateFilter === d
+                      ? 'bg-black text-white'
+                      : 'bg-subtle text-muted hover:text-ink border border-line'
+                  }"
+                >
+                  ${formatShortDateFr(d)}
+                </button>
+              `).join('')}
+            </div>
+          ` : ''}
+
+          <!-- Liste chronologique par journée -->
+          ${Object.keys(groupedByDate).length === 0 ? `
+            <div class="py-16 text-center border border-dashed border-line rounded-3xl">
+              <p class="font-serif text-lg text-ink">Aucun créneau publié pour le moment</p>
+              <p class="text-xs text-muted mt-1">
+                ${canManageSchedule
+                  ? 'Cliquez sur « + Ajouter un créneau » pour ouvrir des disponibilités.'
+                  : `${teacherName} n'a pas encore publié de disponibilités.`}
+              </p>
+            </div>
+          ` : Object.entries(groupedByDate).map(([date, daySlots]) => `
+            <div class="space-y-3">
+              <div class="flex items-center justify-between pt-2">
+                <h3 class="text-xs font-semibold uppercase tracking-[0.1em] text-ink">
+                  ${formatDateFr(date)}
+                </h3>
+                <span class="text-[11px] text-muted tabular-nums">
+                  ${daySlots.filter(s => s.type !== 'break').length} créneau(x)
+                </span>
+              </div>
+
+              <div class="space-y-2.5">
+                ${daySlots.map(slot => renderSlotCard(slot, category, canManageSchedule)).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </section>
+      `;
+    }
+
+    function renderSlotCard(slot, category, canManageSchedule) {
+      const user = getCurrentUser();
+      const endTime = addMinutesToTime(slot.startTime, slot.duration);
+      const durationLabel = formatDuration(slot.duration);
+
+      // 1. Cas d'une PAUSE placée par Félix
+      if (slot.type === 'break') {
+        return `
+          <div class="pause-pattern border border-line rounded-2xl px-4 py-3 flex items-center justify-between gap-3">
+            <div class="flex items-center gap-3 min-w-0">
+              <span class="text-xs font-semibold tabular-nums text-muted shrink-0">
+                ${slot.startTime} – ${endTime}
+              </span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-line text-[11px] font-medium tabular-nums shrink-0">
+                ${durationLabel}
+              </span>
+              <span class="text-xs sm:text-sm font-medium text-muted truncate">
+                Pause · ${escapeHtml(slot.breakLabel || 'Temps libre')}
+              </span>
+            </div>
+            ${canManageSchedule ? `
+              <button
+                type="button"
+                onclick="deleteSlot('${category}', '${slot.id}')"
+                class="text-xs text-muted hover:text-black underline shrink-0 px-2 py-1"
+              >Retirer</button>
+            ` : ''}
+          </div>
+        `;
+      }
+
+      // 2. Cas d'un CRÉNEAU LIBRE
+      if (!slot.studentId) {
+        return `
+          <div class="border border-dashed border-neutral-400 hover:border-black rounded-2xl p-4 bg-white transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="space-y-1">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="text-sm sm:text-base font-semibold tabular-nums">
+                  ${slot.startTime} – ${endTime}
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full border border-black text-[11px] font-medium tabular-nums">
+                  ${durationLabel}
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full bg-subtle text-muted text-[11px] font-medium">
+                  Disponible
+                </span>
+                ${slot.room ? `<span class="text-xs text-muted">· ${escapeHtml(slot.room)}</span>` : ''}
+              </div>
+              <p class="text-xs text-muted">
+                Créneau ouvert aux inscriptions des élèves
+              </p>
+            </div>
+
+            <div class="flex items-center gap-2 shrink-0">
+              ${user.role === 'student' ? `
+                <button
+                  type="button"
+                  onclick="openBookSlotModal('${category}', '${slot.id}')"
+                  class="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-black text-white text-xs sm:text-sm font-medium hover:bg-neutral-800 transition-colors active:scale-95"
+                >
+                  S'inscrire
+                </button>
+              ` : ''}
+              ${canManageSchedule ? `
+                <button
+                  type="button"
+                  onclick="openBookSlotModal('${category}', '${slot.id}', true)"
+                  class="px-3 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+                >
+                  Assigner
+                </button>
+                ${category === 'violin' ? `
+                  <button
+                    type="button"
+                    onclick="openInsertBreakAfterModal('${slot.id}')"
+                    title="Insérer une pause juste après ce créneau"
+                    class="px-3 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+                  >
+                    + Pause après
+                  </button>
+                ` : ''}
+                <button
+                  type="button"
+                  onclick="deleteSlot('${category}', '${slot.id}')"
+                  class="p-2 rounded-xl text-muted hover:text-black hover:bg-subtle transition-colors"
+                  title="Supprimer le créneau"
+                >
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                </button>
+              ` : ''}
+            </div>
+          </div>
+        `;
+      }
+
+      // 3. Cas d'un CRÉNEAU RÉSERVÉ PAR UN ÉLÈVE
+      const bookedStudent = getUserById(slot.studentId);
+      const isMySlot = user.id === slot.studentId;
+      const hasPendingSwapFromMe = state.swaps.some(
+        s => s.status === 'pending' && s.targetSlotId === slot.id && s.fromStudentId === user.id
+      );
+
+      return `
+        <div class="border ${isMySlot ? 'border-black ring-1 ring-black/10' : 'border-line'} rounded-2xl p-4 bg-white shadow-2xs transition-all">
+          <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+            <div class="space-y-1.5 min-w-0">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="text-sm sm:text-base font-semibold tabular-nums">
+                  ${slot.startTime} – ${endTime}
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full bg-black text-white text-[11px] font-medium tabular-nums">
+                  ${durationLabel}
+                </span>
+                <span class="text-sm font-semibold text-ink">
+                  ${escapeHtml(bookedStudent ? bookedStudent.name : 'Élève')}
+                </span>
+                ${isMySlot ? `
+                  <span class="px-2 py-0.5 rounded-md bg-subtle border border-line text-[10px] uppercase tracking-wider font-semibold">
+                    Votre cours
+                  </span>
+                ` : ''}
+              </div>
+
+              ${slot.sessionType ? `
+                <p class="text-xs font-medium text-ink">
+                  Modalité : <span class="text-muted font-normal">${escapeHtml(slot.sessionType)}</span>
+                  ${slot.room ? ` · <span class="text-muted font-normal">${escapeHtml(slot.room)}</span>` : ''}
+                </p>
+              ` : (slot.room ? `<p class="text-xs text-muted">${escapeHtml(slot.room)}</p>` : '')}
+
+              <div class="pt-0.5">
+                <p class="text-xs sm:text-sm text-ink leading-snug">
+                  <span class="text-muted text-xs uppercase tracking-wider font-medium mr-1.5">Programme :</span>
+                  ${slot.repertoire ? escapeHtml(slot.repertoire) : '<span class="italic text-muted">Non précisé</span>'}
+                </p>
+                ${slot.notes ? `
+                  <p class="text-xs text-muted mt-1">Note : ${escapeHtml(slot.notes)}</p>
+                ` : ''}
+              </div>
+            </div>
+
+            <!-- Actions contextuelles -->
+            <div class="flex flex-wrap items-center gap-2 shrink-0 pt-1 sm:pt-0">
+              ${isMySlot ? `
+                <button
+                  type="button"
+                  onclick="openBookSlotModal('${category}', '${slot.id}')"
+                  class="px-3 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+                >
+                  Modifier programme
+                </button>
+                <button
+                  type="button"
+                  onclick="releaseSlot('${category}', '${slot.id}')"
+                  class="px-3 py-2 rounded-xl border border-line hover:border-black text-xs text-muted hover:text-black transition-colors"
+                >
+                  Libérer
+                </button>
+              ` : ''}
+
+              ${user.role === 'student' && !isMySlot ? (
+                hasPendingSwapFromMe ? `
+                  <span class="px-3 py-2 rounded-xl bg-subtle border border-line text-xs font-medium text-muted">
+                    Échange demandé…
+                  </span>
+                ` : `
+                  <button
+                    type="button"
+                    onclick="openProposeSwapModal('${category}', '${slot.id}')"
+                    class="px-3.5 py-2 rounded-xl border border-black text-ink hover:bg-black hover:text-white text-xs font-medium transition-colors active:scale-95"
+                  >
+                    ⇄ Proposer un échange
+                  </button>
+                `
+              ) : ''}
+
+              ${canManageSchedule ? `
+                ${category === 'violin' ? `
+                  <button
+                    type="button"
+                    onclick="openInsertBreakAfterModal('${slot.id}')"
+                    title="Insérer une pause juste après ce cours"
+                    class="px-3 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+                  >
+                    + Pause après
+                  </button>
+                ` : ''}
+                <button
+                  type="button"
+                  onclick="releaseSlot('${category}', '${slot.id}')"
+                  class="px-2.5 py-2 rounded-xl text-xs text-muted hover:text-black hover:bg-subtle transition-colors"
+                  title="Libérer ce créneau"
+                >
+                  Libérer
+                </button>
+              ` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function setDateFilter(dateVal) {
+      state.selectedDateFilter = dateVal;
+      renderApp();
+    }
+
+    // =========================================================================
+    // 7. VUE AUDITIONS DE CLASSE
+    // =========================================================================
+    function renderAuditionsView() {
+      const user = getCurrentUser();
+      const canCreateAudition = user.role === 'prof' || user.role === 'piano';
+
+      return `
+        <section class="space-y-6 animate-fade-up">
+          <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-line pb-5">
+            <div>
+              <span class="text-[11px] uppercase tracking-[0.14em] text-muted font-semibold">
+                Concerts &amp; Filages internes
+              </span>
+              <h2 class="font-serif text-2xl sm:text-3xl font-medium mt-1">Auditions de classe</h2>
+              <p class="text-xs sm:text-sm text-muted mt-1">
+                Programme complet, ordre de passage et durées estimées
+              </p>
+            </div>
+
+            ${canCreateAudition ? `
+              <button
+                type="button"
+                onclick="openCreateAuditionModal()"
+                class="px-4 py-2.5 rounded-xl bg-black text-white text-xs sm:text-sm font-medium hover:bg-neutral-800 transition-colors active:scale-95 shrink-0"
+              >
+                + Nouvelle audition
+              </button>
+            ` : ''}
+          </div>
+
+          ${state.auditions.length === 0 ? `
+            <div class="py-16 text-center border border-dashed border-line rounded-3xl">
+              <p class="font-serif text-lg">Aucune audition programmée</p>
+              <p class="text-xs text-muted mt-1">Félix Frochhammer publiera prochainement les dates d'audition.</p>
+            </div>
+          ` : state.auditions.map(aud => {
+            const totalMinutes = aud.performers.reduce((sum, p) => sum + Number(p.durationMinutes || 0), 0);
+            const myEntry = aud.performers.find(p => p.studentId === user.id);
+
+            return `
+              <article class="border border-line rounded-3xl overflow-hidden bg-white shadow-2xs">
+                <!-- En-tête de l'audition -->
+                <div class="p-5 sm:p-6 bg-subtle/60 border-b border-line flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div class="space-y-1">
+                    <div class="flex flex-wrap items-center gap-2 text-xs font-medium text-muted">
+                      <span class="text-ink font-semibold">${formatDateFr(aud.date)}</span>
+                      <span>·</span>
+                      <span class="tabular-nums">${aud.time}</span>
+                      <span>·</span>
+                      <span>${escapeHtml(aud.location)}</span>
+                    </div>
+                    <h3 class="font-serif text-xl sm:text-2xl font-medium text-ink">
+                      ${escapeHtml(aud.title)}
+                    </h3>
+                    ${aud.description ? `<p class="text-xs sm:text-sm text-muted pt-1">${escapeHtml(aud.description)}</p>` : ''}
+                  </div>
+
+                  <div class="flex sm:flex-col items-center sm:items-end justify-between gap-2 shrink-0">
+                    <span class="px-3 py-1 rounded-full bg-black text-white text-xs font-medium tabular-nums">
+                      Durée totale : ${formatDuration(totalMinutes)}
+                    </span>
+                    <span class="text-xs text-muted tabular-nums">
+                      ${aud.performers.length} participant(s)
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Liste des participants et programmes -->
+                <div class="divide-y divide-line">
+                  ${aud.performers.length === 0 ? `
+                    <div class="p-8 text-center text-xs text-muted">
+                      Aucun élève inscrit pour le moment. Soyez le premier à inscrire votre programme !
+                    </div>
+                  ` : aud.performers.map((perf, idx) => {
+                    const performerUser = getUserById(perf.studentId);
+                    const isMe = perf.studentId === user.id;
+                    return `
+                      <div class="p-4 sm:px-6 flex items-start justify-between gap-4 ${isMe ? 'bg-subtle/40' : ''}">
+                        <div class="flex items-start gap-3.5 min-w-0">
+                          <span class="w-6 h-6 rounded-full border border-black text-xs font-semibold flex items-center justify-center shrink-0 mt-0.5 tabular-nums">
+                            ${idx + 1}
+                          </span>
+                          <div class="min-w-0 space-y-1">
+                            <div class="flex flex-wrap items-center gap-2">
+                              <span class="font-semibold text-sm">${escapeHtml(performerUser ? performerUser.name : 'Élève')}</span>
+                              <span class="px-2 py-0.5 rounded-md bg-subtle border border-line text-[11px] font-medium tabular-nums">
+                                ${perf.durationMinutes} min
+                              </span>
+                              ${perf.withPiano ? `
+                                <span class="px-2 py-0.5 rounded-md bg-black text-white text-[10px] font-medium">
+                                  Piano : Stéphanie Gurga
+                                </span>
+                              ` : `
+                                <span class="px-2 py-0.5 rounded-md border border-line text-[10px] text-muted">
+                                  Violon seul
+                                </span>
+                              `}
+                            </div>
+                            <p class="text-xs sm:text-sm text-ink">
+                              ${escapeHtml(perf.piece)}
+                            </p>
+                          </div>
+                        </div>
+
+                        ${(isMe || canCreateAudition) ? `
+                          <button
+                            type="button"
+                            onclick="removeAuditionPerformer('${aud.id}', '${perf.id}')"
+                            class="text-xs text-muted hover:text-black underline shrink-0 py-1"
+                          >
+                            Retirer
+                          </button>
+                        ` : ''}
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+
+                <!-- Pied de carte : Inscription élève -->
+                <div class="px-5 py-4 bg-white border-t border-line flex items-center justify-between gap-3">
+                  <span class="text-xs text-muted">
+                    ${myEntry ? 'Vous êtes inscrit(e) à cette audition.' : 'Indiquez votre œuvre et la durée estimée.'}
+                  </span>
+                  ${user.role === 'student' && !myEntry ? `
+                    <button
+                      type="button"
+                      onclick="openJoinAuditionModal('${aud.id}')"
+                      class="px-4 py-2 rounded-xl bg-black text-white text-xs sm:text-sm font-medium hover:bg-neutral-800 transition-colors active:scale-95"
+                    >
+                      + S'inscrire à l'audition
+                    </button>
+                  ` : ''}
+                  ${canCreateAudition ? `
+                    <button
+                      type="button"
+                      onclick="openJoinAuditionModal('${aud.id}', true)"
+                      class="px-3.5 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+                    >
+                      + Ajouter un élève
+                    </button>
+                  ` : ''}
+                </div>
+              </article>
+            `;
+          }).join('')}
+        </section>
+      `;
+    }
+
+    // =========================================================================
+    // 8. VUE ÉCHANGES D'HORAIRES & COORDINATION ENTRE ÉLÈVES
+    // =========================================================================
+    function renderSwapsView() {
+      const user = getCurrentUser();
+      const pendingSwaps = state.swaps.filter(s => s.status === 'pending');
+      const historySwaps = state.swaps.filter(s => s.status !== 'pending');
+
+      return `
+        <section class="space-y-6 animate-fade-up">
+          <div class="border-b border-line pb-5">
+            <span class="text-[11px] uppercase tracking-[0.14em] text-muted font-semibold">
+              Entraide &amp; Flexibilité
+            </span>
+            <h2 class="font-serif text-2xl sm:text-3xl font-medium mt-1">Échanges d'horaires</h2>
+            <p class="text-xs sm:text-sm text-muted mt-1">
+              Proposez et validez des permutations de créneaux en violon ou au piano.
+            </p>
+          </div>
+
+          <!-- Propositions en cours -->
+          <div class="space-y-3">
+            <h3 class="text-xs font-semibold uppercase tracking-[0.1em] text-ink">
+              Propositions en attente (${pendingSwaps.length})
+            </h3>
+
+            ${pendingSwaps.length === 0 ? `
+              <div class="p-8 text-center border border-dashed border-line rounded-2xl">
+                <p class="text-sm font-medium">Aucune proposition d'échange en attente</p>
+                <p class="text-xs text-muted mt-1">
+                  Pour demander un échange, rendez-vous sur l'onglet <strong>Violon</strong> ou <strong>Piano</strong> et cliquez sur « ⇄ Proposer un échange » sur le créneau d'un camarade.
+                </p>
+              </div>
+            ` : pendingSwaps.map(swap => renderSwapCard(swap, user)).join('')}
+          </div>
+
+          <!-- Historique des échanges -->
+          ${historySwaps.length > 0 ? `
+            <div class="space-y-3 pt-4">
+              <h3 class="text-xs font-semibold uppercase tracking-[0.1em] text-muted">
+                Historique récent (${historySwaps.length})
+              </h3>
+              ${historySwaps.map(swap => renderSwapCard(swap, user)).join('')}
+            </div>
+          ` : ''}
+        </section>
+      `;
+    }
+
+    function renderSwapCard(swap, user) {
+      const fromUser = getUserById(swap.fromStudentId);
+      const toUser = getUserById(swap.toStudentId);
+      const list = swap.category === 'violin' ? state.violinSlots : state.pianoSlots;
+      const targetSlot = list.find(s => s.id === swap.targetSlotId);
+      const offeredSlot = list.find(s => s.id === swap.offeredSlotId);
+      const isRecipient = user.id === swap.toStudentId && swap.status === 'pending';
+
+      const statusBadge = swap.status === 'pending'
+        ? '<span class="px-2.5 py-0.5 rounded-full bg-black text-white text-[11px] font-medium">En attente</span>'
+        : swap.status === 'accepted'
+          ? '<span class="px-2.5 py-0.5 rounded-full border border-black text-ink text-[11px] font-semibold">✓ Accepté &amp; Permuté</span>'
+          : '<span class="px-2.5 py-0.5 rounded-full bg-subtle text-muted text-[11px]">Refusé</span>';
+
+      return `
+        <div class="border ${isRecipient ? 'border-black' : 'border-line'} rounded-2xl p-4 sm:p-5 bg-white space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-semibold uppercase tracking-wider text-muted">
+                ${swap.category === 'violin' ? 'Violon (F. Frochhammer)' : 'Piano (S. Gurga)'}
+              </span>
+              <span class="text-xs text-muted">· ${swap.createdAt}</span>
+            </div>
+            ${statusBadge}
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-subtle p-3.5 rounded-xl border border-line/80 text-xs">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-muted block">Créneau proposé par ${escapeHtml(fromUser?.name || '')}</span>
+              <strong class="text-sm font-semibold block mt-0.5 tabular-nums">
+                ${offeredSlot ? `${formatShortDateFr(offeredSlot.date)} · ${offeredSlot.startTime} (${formatDuration(offeredSlot.duration)})` : 'Créneau libéré'}
+              </strong>
+            </div>
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-muted block">Contre le créneau de ${escapeHtml(toUser?.name || '')}</span>
+              <strong class="text-sm font-semibold block mt-0.5 tabular-nums">
+                ${targetSlot ? `${formatShortDateFr(targetSlot.date)} · ${targetSlot.startTime} (${formatDuration(targetSlot.duration)})` : 'Créneau concerné'}
+              </strong>
+            </div>
+          </div>
+
+          ${swap.message ? `
+            <p class="text-xs sm:text-sm text-ink italic border-l-2 border-black pl-3">
+              « ${escapeHtml(swap.message)} »
+            </p>
+          ` : ''}
+
+          ${isRecipient ? `
+            <div class="flex items-center justify-end gap-2 pt-1">
+              <button
+                type="button"
+                onclick="respondToSwap('${swap.id}', false)"
+                class="px-4 py-2 rounded-xl border border-line hover:border-black text-xs font-medium transition-colors"
+              >
+                Refuser
+              </button>
+              <button
+                type="button"
+                onclick="respondToSwap('${swap.id}', true)"
+                class="px-4 py-2 rounded-xl bg-black text-white text-xs font-semibold hover:bg-neutral-800 transition-colors"
+              >
+                Accepter l'échange
+              </button>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    // =========================================================================
+    // 9. MODALS D'ACTIONS (CRÉNEAUX, PAUSES, INSCRIPTIONS, AUDITIONS, ÉCHANGES)
+    // =========================================================================
+
+    // A. Ajouter un créneau de cours OU une pause (Félix / Stéphanie)
+    function openAddSlotModal(category, defaultType = 'lesson') {
+      const isViolin = category === 'violin';
+      const list = sortSlots(isViolin ? state.violinSlots : state.pianoSlots);
+      const lastSlot = list[list.length - 1];
+      const suggestedDate = lastSlot ? lastSlot.date : '2026-11-26';
+      const suggestedTime = lastSlot ? addMinutesToTime(lastSlot.startTime, lastSlot.duration) : '09:00';
+
+      openModal(
+        defaultType === 'break' ? 'Ajouter une pause (Félix)' : (isViolin ? 'Nouveau créneau — Violon' : 'Nouveau créneau — Piano'),
+        `
+          <form id="form-add-slot" class="space-y-4">
+            ${isViolin ? `
+              <div class="grid grid-cols-2 gap-2 p-1 bg-subtle rounded-xl border border-line">
+                <button type="button" id="type-lesson-btn" onclick="switchSlotModalType('lesson')" class="py-2 rounded-lg text-xs font-semibold transition-colors ${defaultType === 'lesson' ? 'bg-black text-white' : 'text-muted'}">
+                  Créneau de cours
+                </button>
+                <button type="button" id="type-break-btn" onclick="switchSlotModalType('break')" class="py-2 rounded-lg text-xs font-semibold transition-colors ${defaultType === 'break' ? 'bg-black text-white' : 'text-muted'}">
+                  Pause personnalisée
+                </button>
+              </div>
+            ` : ''}
+
+            <input type="hidden" id="slot-type-input" value="${defaultType}" />
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-medium text-muted mb-1">Date</label>
+                <input type="date" id="slot-date-input" value="${suggestedDate}" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-muted mb-1">Heure de début</label>
+                <input type="time" id="slot-time-input" value="${suggestedTime}" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1.5">Durée (préréglages rapides ou personnalisée)</label>
+              <div class="grid grid-cols-4 gap-2 mb-2.5">
+                ${(defaultType === 'break' ? [15, 20, 30, 45] : (isViolin ? [45, 60, 90, 120] : [30, 45, 60, 90])).map(mins => `
+                  <button
+                    type="button"
+                    onclick="document.getElementById('slot-duration-input').value = ${mins}"
+                    class="py-2 rounded-xl border border-line hover:border-black text-xs font-medium tabular-nums transition-colors"
+                  >
+                    ${formatDuration(mins)}
+                  </button>
+                `).join('')}
+              </div>
+              <div class="flex items-center gap-2">
+                <input
+                  type="number"
+                  id="slot-duration-input"
+                  min="5"
+                  max="360"
+                  step="5"
+                  value="${defaultType === 'break' ? 20 : (isViolin ? 90 : 45)}"
+                  required
+                  class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums"
+                />
+                <span class="text-xs text-muted shrink-0">minutes</span>
+              </div>
+            </div>
+
+            <div id="break-label-group" class="${defaultType === 'break' ? '' : 'hidden'}">
+              <label class="block text-xs font-medium text-muted mb-1">Intitulé de la pause (optionnel)</label>
+              <input type="text" id="slot-break-label" placeholder="Ex : Pause café, Déjeuner, Repos..." class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm" />
+            </div>
+
+            ${!isViolin ? `
+              <div>
+                <label class="block text-xs font-medium text-muted mb-1">Salle / Lieu</label>
+                <input type="text" id="slot-room-input" value="Salle 14 — Steinway" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm" />
+              </div>
+            ` : ''}
+
+            <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+              Enregistrer au planning
+            </button>
+          </form>
+        `
+      );
+
+      document.getElementById('form-add-slot').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const type = document.getElementById('slot-type-input').value;
+        const date = document.getElementById('slot-date-input').value;
+        const startTime = document.getElementById('slot-time-input').value;
+        const duration = Math.max(5, parseInt(document.getElementById('slot-duration-input').value, 10) || 60);
+        const breakLabel = document.getElementById('slot-break-label')?.value.trim() || 'Pause';
+        const room = document.getElementById('slot-room-input')?.value.trim() || '';
+
+        const newSlot = {
+          id: uid(isViolin ? 'v' : 'p'),
+          date,
+          startTime,
+          duration,
+          type,
+          breakLabel: type === 'break' ? breakLabel : '',
+          room,
+          studentId: null,
+          sessionType: '',
+          repertoire: '',
+          notes: ''
+        };
+
+        const colName = isViolin ? 'violinSlots' : 'pianoSlots';
+        if (isViolin) {
+          state.violinSlots.push(newSlot);
+        } else {
+          state.pianoSlots.push(newSlot);
+        }
+        await saveDocToCloud(colName, newSlot.id, newSlot);
+
+        closeModal();
+        showToast(type === 'break' ? `Pause de ${formatDuration(duration)} ajoutée.` : `Créneau de ${formatDuration(duration)} ajouté.`);
+        renderApp();
+      });
+    }
+
+    function switchSlotModalType(type) {
+      document.getElementById('slot-type-input').value = type;
+      const lessonBtn = document.getElementById('type-lesson-btn');
+      const breakBtn = document.getElementById('type-break-btn');
+      const breakGroup = document.getElementById('break-label-group');
+      const durInput = document.getElementById('slot-duration-input');
+
+      if (type === 'break') {
+        breakBtn.classList.add('bg-black', 'text-white');
+        breakBtn.classList.remove('text-muted');
+        lessonBtn.classList.remove('bg-black', 'text-white');
+        lessonBtn.classList.add('text-muted');
+        breakGroup.classList.remove('hidden');
+        durInput.value = 20;
+      } else {
+        lessonBtn.classList.add('bg-black', 'text-white');
+        lessonBtn.classList.remove('text-muted');
+        breakBtn.classList.remove('bg-black', 'text-white');
+        breakBtn.classList.add('text-muted');
+        breakGroup.classList.add('hidden');
+        durInput.value = 90;
+      }
+    }
+
+    // B. Insérer une pause juste après un créneau existant (avec décalage optionnel des suivants)
+    function openInsertBreakAfterModal(afterSlotId) {
+      const targetSlot = state.violinSlots.find(s => s.id === afterSlotId);
+      if (!targetSlot) return;
+      const breakStart = addMinutesToTime(targetSlot.startTime, targetSlot.duration);
+
+      openModal('Insérer une pause après ce cours', `
+        <form id="form-insert-break" class="space-y-4">
+          <div class="p-3.5 rounded-xl bg-subtle border border-line text-xs space-y-1">
+            <span class="text-muted">Début de la pause :</span>
+            <p class="font-semibold text-sm tabular-nums">${formatDateFr(targetSlot.date)} à ${breakStart}</p>
+          </div>
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1.5">Durée de la pause</label>
+            <div class="grid grid-cols-4 gap-2 mb-2">
+              ${[10, 15, 20, 30].map(m => `
+                <button type="button" onclick="document.getElementById('ins-break-dur').value=${m}" class="py-2 rounded-xl border border-line hover:border-black text-xs font-medium tabular-nums">
+                  ${m} min
+                </button>
+              `).join('')}
+            </div>
+            <div class="flex items-center gap-2">
+              <input type="number" id="ins-break-dur" value="15" min="5" max="180" step="5" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+              <span class="text-xs text-muted">minutes</span>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Intitulé (optionnel)</label>
+            <input type="text" id="ins-break-label" placeholder="Ex : Pause café" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm" />
+          </div>
+
+          <label class="flex items-start gap-2.5 p-3 rounded-xl border border-line cursor-pointer">
+            <input type="checkbox" id="ins-break-shift" checked class="mt-0.5 accent-black" />
+            <span class="text-xs text-ink leading-relaxed">
+              Décaler automatiquement les créneaux suivants de cette journée de la durée de la pause
+            </span>
+          </label>
+
+          <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+            Insérer la pause
+          </button>
+        </form>
+      `);
+
+      document.getElementById('form-insert-break').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const dur = Math.max(5, parseInt(document.getElementById('ins-break-dur').value, 10) || 15);
+        const label = document.getElementById('ins-break-label').value.trim() || 'Pause';
+        const shouldShift = document.getElementById('ins-break-shift').checked;
+        const breakStartMins = timeToMinutes(breakStart);
+
+        const cloudUpdates = [];
+        if (shouldShift) {
+          state.violinSlots.forEach(s => {
+            if (s.date === targetSlot.date && timeToMinutes(s.startTime) >= breakStartMins) {
+              s.startTime = addMinutesToTime(s.startTime, dur);
+              cloudUpdates.push(saveDocToCloud('violinSlots', s.id, s));
+            }
+          });
+        }
+
+        const newBreak = {
+          id: uid('v'),
+          date: targetSlot.date,
+          startTime: breakStart,
+          duration: dur,
+          type: 'break',
+          breakLabel: label,
+          studentId: null,
+          repertoire: '',
+          notes: ''
+        };
+        state.violinSlots.push(newBreak);
+        cloudUpdates.push(saveDocToCloud('violinSlots', newBreak.id, newBreak));
+        await Promise.all(cloudUpdates);
+
+        closeModal();
+        showToast(`Pause de ${dur} min insérée.`);
+        renderApp();
+      });
+    }
+
+    // C. S'inscrire sur un créneau ou modifier son programme
+    function openBookSlotModal(category, slotId, isAdminAssign = false) {
+      const list = category === 'violin' ? state.violinSlots : state.pianoSlots;
+      const slot = list.find(s => s.id === slotId);
+      if (!slot) return;
+
+      const user = getCurrentUser();
+      const students = state.users.filter(u => u.role === 'student');
+
+      openModal(
+        slot.studentId ? 'Modifier le programme' : (isAdminAssign ? 'Assigner un élève' : 'Réserver ce créneau'),
+        `
+          <form id="form-book-slot" class="space-y-4">
+            <div class="p-3.5 rounded-xl bg-subtle border border-line text-xs space-y-1">
+              <span class="text-muted">${category === 'violin' ? 'Cours avec Félix Frochhammer' : 'Accompagnement avec Stéphanie Gurga'}</span>
+              <p class="font-semibold text-sm tabular-nums">
+                ${formatDateFr(slot.date)} · ${slot.startTime} – ${addMinutesToTime(slot.startTime, slot.duration)} (${formatDuration(slot.duration)})
+              </p>
+            </div>
+
+            ${isAdminAssign ? `
+              <div>
+                <label class="block text-xs font-medium text-muted mb-1">Élève</label>
+                <select id="book-student-select" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm bg-white">
+                  ${students.map(st => `<option value="${st.id}" ${slot.studentId === st.id ? 'selected' : ''}>${escapeHtml(st.name)}</option>`).join('')}
+                </select>
+              </div>
+            ` : ''}
+
+            ${category === 'piano' ? `
+              <div>
+                <label class="block text-xs font-medium text-muted mb-1">Type de séance avec Stéphanie</label>
+                <select id="book-session-type" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm bg-white">
+                  <option value="Répétition piano seul" ${slot.sessionType === 'Répétition piano seul' ? 'selected' : ''}>Répétition piano seul</option>
+                  <option value="Accompagnement pendant le cours de Félix" ${slot.sessionType === 'Accompagnement pendant le cours de Félix' ? 'selected' : ''}>Accompagnement pendant le cours de Félix</option>
+                  <option value="Préparation audition / concours" ${slot.sessionType === 'Préparation audition / concours' ? 'selected' : ''}>Préparation audition / concours</option>
+                </select>
+              </div>
+            ` : ''}
+
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1">Programme / Œuvres travaillées</label>
+              <textarea
+                id="book-repertoire"
+                rows="3"
+                required
+                placeholder="Ex : P.I. Tchaïkovski — Concerto en ré majeur, Op. 35 (1er mouvement)"
+                class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"
+              >${escapeHtml(slot.repertoire || '')}</textarea>
+            </div>
+
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1">Précisions (optionnel)</label>
+              <input
+                type="text"
+                id="book-notes"
+                value="${escapeHtml(slot.notes || '')}"
+                placeholder="Ex : Travail des traits d'orchestre, cadence..."
+                class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"
+              />
+            </div>
+
+            <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+              Confirmer l'inscription
+            </button>
+          </form>
+        `
+      );
+
+      document.getElementById('form-book-slot').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const selectedStudentId = isAdminAssign
+          ? document.getElementById('book-student-select').value
+          : (slot.studentId || user.id);
+
+        slot.studentId = selectedStudentId;
+        slot.repertoire = document.getElementById('book-repertoire').value.trim();
+        slot.notes = document.getElementById('book-notes').value.trim();
+        if (category === 'piano') {
+          slot.sessionType = document.getElementById('book-session-type').value;
+        }
+
+        const colName = category === 'violin' ? 'violinSlots' : 'pianoSlots';
+        await saveDocToCloud(colName, slot.id, slot);
+
+        const st = getUserById(selectedStudentId);
+        const teacherId = category === 'violin' ? 'felix' : 'stephanie';
+        addNotification(
+          teacherId,
+          'Inscription mise à jour',
+          `${st ? st.name : 'Un élève'} — ${formatShortDateFr(slot.date)} à ${slot.startTime} (${slot.repertoire}).`
+        );
+
+        closeModal();
+        showToast('Inscription enregistrée.');
+        renderApp();
+      });
+    }
+
+    async function releaseSlot(category, slotId) {
+      const colName = category === 'violin' ? 'violinSlots' : 'pianoSlots';
+      const list = category === 'violin' ? state.violinSlots : state.pianoSlots;
+      const slot = list.find(s => s.id === slotId);
+      if (!slot) return;
+      slot.studentId = null;
+      slot.repertoire = '';
+      slot.notes = '';
+      slot.sessionType = '';
+      await saveDocToCloud(colName, slot.id, slot);
+      showToast('Créneau libéré.');
+      renderApp();
+    }
+
+    async function deleteSlot(category, slotId) {
+      const colName = category === 'violin' ? 'violinSlots' : 'pianoSlots';
+      if (category === 'violin') {
+        state.violinSlots = state.violinSlots.filter(s => s.id !== slotId);
+      } else {
+        state.pianoSlots = state.pianoSlots.filter(s => s.id !== slotId);
+      }
+      await deleteDocFromCloud(colName, slotId);
+      showToast('Élément supprimé.');
+      renderApp();
+    }
+
+    // D. Proposer un échange d'horaire à un autre élève
+    function openProposeSwapModal(category, targetSlotId) {
+      const user = getCurrentUser();
+      const list = category === 'violin' ? state.violinSlots : state.pianoSlots;
+      const targetSlot = list.find(s => s.id === targetSlotId);
+      if (!targetSlot) return;
+
+      const targetStudent = getUserById(targetSlot.studentId);
+      const mySlots = list.filter(s => s.studentId === user.id && s.type !== 'break');
+
+      if (mySlots.length === 0) {
+        openModal('Échange impossible', `
+          <div class="space-y-4">
+            <p class="text-sm text-ink leading-relaxed">
+              Vous n'avez actuellement aucun créneau réservé en <strong>${category === 'violin' ? 'violon' : 'piano'}</strong> à proposer en échange à <strong>${escapeHtml(targetStudent?.name || 'cet élève')}</strong>.
+            </p>
+            <p class="text-xs text-muted">
+              Inscrivez-vous d'abord sur un créneau disponible, puis vous pourrez proposer une permutation.
+            </p>
+            <button type="button" onclick="closeModal()" class="w-full py-2.5 rounded-xl bg-black text-white text-sm font-medium">
+              Compris
+            </button>
+          </div>
+        `);
+        return;
+      }
+
+      openModal('Proposer un échange d’horaire', `
+        <form id="form-propose-swap" class="space-y-4">
+          <div class="p-3.5 rounded-xl bg-subtle border border-line text-xs space-y-1">
+            <span class="text-muted">Créneau souhaité (détenu par ${escapeHtml(targetStudent?.name || '')}) :</span>
+            <p class="font-semibold text-sm tabular-nums">
+              ${formatDateFr(targetSlot.date)} · ${targetSlot.startTime} – ${addMinutesToTime(targetSlot.startTime, targetSlot.duration)} (${formatDuration(targetSlot.duration)})
+            </p>
+          </div>
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Votre créneau proposé en échange</label>
+            <select id="swap-offered-slot" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm bg-white">
+              ${mySlots.map(ms => `
+                <option value="${ms.id}">
+                  ${formatShortDateFr(ms.date)} · ${ms.startTime} – ${addMinutesToTime(ms.startTime, ms.duration)} (${formatDuration(ms.duration)})
+                </option>
+              `).join('')}
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Message pour ${escapeHtml(targetStudent?.name || 'votre camarade')}</label>
+            <textarea
+              id="swap-message"
+              rows="3"
+              placeholder="Ex : Bonjour, aurais-tu la possibilité d'échanger nos horaires ce jour-là ?"
+              class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+            Envoyer la proposition d'échange
+          </button>
+        </form>
+      `);
+
+      document.getElementById('form-propose-swap').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const offeredSlotId = document.getElementById('swap-offered-slot').value;
+        const message = document.getElementById('swap-message').value.trim();
+
+        const newSwap = {
+          id: uid('swap'),
+          category,
+          fromStudentId: user.id,
+          toStudentId: targetSlot.studentId,
+          targetSlotId: targetSlot.id,
+          offeredSlotId,
+          message,
+          status: 'pending',
+          createdAt: 'À l’instant',
+          createdAtMs: Date.now()
+        };
+        state.swaps.unshift(newSwap);
+        await saveDocToCloud('swaps', newSwap.id, newSwap);
+
+        addNotification(
+          targetSlot.studentId,
+          'Nouvelle proposition d’échange',
+          `${user.name} vous propose d'échanger votre créneau du ${formatShortDateFr(targetSlot.date)} à ${targetSlot.startTime}.`
+        );
+
+        closeModal();
+        showToast(`Proposition envoyée à ${targetStudent?.name || 'l’élève'}.`);
+        renderApp();
+      });
+    }
+
+    // E. Répondre à une proposition d'échange (Accepter = permutation réelle des créneaux !)
+    async function respondToSwap(swapId, accept) {
+      const swap = state.swaps.find(s => s.id === swapId);
+      if (!swap || swap.status !== 'pending') return;
+
+      const fromUser = getUserById(swap.fromStudentId);
+      const toUser = getUserById(swap.toStudentId);
+      const colName = swap.category === 'violin' ? 'violinSlots' : 'pianoSlots';
+
+      if (accept) {
+        const list = swap.category === 'violin' ? state.violinSlots : state.pianoSlots;
+        const slotA = list.find(s => s.id === swap.offeredSlotId);
+        const slotB = list.find(s => s.id === swap.targetSlotId);
+
+        if (slotA && slotB) {
+          // Permutation des élèves tout en conservant le programme de chacun sur son nouveau créneau
+          const tempStudent = slotA.studentId;
+          const tempRep = slotA.repertoire;
+          const tempNotes = slotA.notes;
+          const tempSession = slotA.sessionType;
+
+          slotA.studentId = slotB.studentId;
+          slotA.repertoire = slotB.repertoire;
+          slotA.notes = slotB.notes;
+          slotA.sessionType = slotB.sessionType;
+
+          slotB.studentId = tempStudent;
+          slotB.repertoire = tempRep;
+          slotB.notes = tempNotes;
+          slotB.sessionType = tempSession;
+
+          await Promise.all([
+            saveDocToCloud(colName, slotA.id, slotA),
+            saveDocToCloud(colName, slotB.id, slotB)
+          ]);
+        }
+
+        swap.status = 'accepted';
+        await saveDocToCloud('swaps', swap.id, swap);
+        addNotification(
+          swap.fromStudentId,
+          'Échange d’horaire accepté ✓',
+          `${toUser?.name || 'Votre camarade'} a accepté l'échange. Le planning a été mis à jour automatiquement.`
+        );
+        addNotification(
+          swap.category === 'violin' ? 'felix' : 'stephanie',
+          'Échange effectué entre élèves',
+          `${fromUser?.name || ''} et ${toUser?.name || ''} ont permuté leurs créneaux.`
+        );
+        showToast('Échange accepté ! Le planning est à jour.');
+      } else {
+        swap.status = 'declined';
+        await saveDocToCloud('swaps', swap.id, swap);
+        addNotification(
+          swap.fromStudentId,
+          'Échange d’horaire refusé',
+          `${toUser?.name || 'Votre camarade'} n'a pas pu accepter votre demande d'échange.`
+        );
+        showToast('Proposition d’échange refusée.');
+      }
+
+      renderApp();
+    }
+
+    // F. Créer une audition & S'inscrire à une audition
+    function openCreateAuditionModal() {
+      openModal('Nouvelle audition de classe', `
+        <form id="form-new-audition" class="space-y-4">
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Titre de l'audition</label>
+            <input type="text" id="aud-title" required placeholder="Ex : Audition de classe — Printemps" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm" />
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1">Date</label>
+              <input type="date" id="aud-date" value="2026-12-11" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+            </div>
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1">Heure</label>
+              <input type="time" id="aud-time" value="18:00" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Lieu / Salle</label>
+            <input type="text" id="aud-location" value="Auditorium" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Informations complémentaires</label>
+            <textarea id="aud-desc" rows="2" placeholder="Ex : Présence de Stéphanie Gurga, filage général..." class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+            Publier l'audition
+          </button>
+        </form>
+      `);
+
+      document.getElementById('form-new-audition').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const title = document.getElementById('aud-title').value.trim();
+        const date = document.getElementById('aud-date').value;
+        const time = document.getElementById('aud-time').value;
+        const location = document.getElementById('aud-location').value.trim();
+        const description = document.getElementById('aud-desc').value.trim();
+
+        const newAud = {
+          id: uid('aud'),
+          title,
+          date,
+          time,
+          location,
+          description,
+          performers: []
+        };
+        state.auditions.unshift(newAud);
+        await saveDocToCloud('auditions', newAud.id, newAud);
+
+        addNotification('all', 'Nouvelle audition publiée', `${title} — ${formatShortDateFr(date)} à ${time} (${location}).`);
+        closeModal();
+        showToast('Audition publiée.');
+        renderApp();
+      });
+    }
+
+    function openJoinAuditionModal(auditionId, isAdminAdd = false) {
+      const aud = state.auditions.find(a => a.id === auditionId);
+      if (!aud) return;
+      const user = getCurrentUser();
+      const students = state.users.filter(u => u.role === 'student');
+
+      openModal('Inscription à l’audition', `
+        <form id="form-join-audition" class="space-y-4">
+          <div class="p-3.5 rounded-xl bg-subtle border border-line text-xs">
+            <p class="font-semibold text-sm">${escapeHtml(aud.title)}</p>
+            <p class="text-muted mt-0.5">${formatDateFr(aud.date)} à ${aud.time} · ${escapeHtml(aud.location)}</p>
+          </div>
+
+          ${isAdminAdd ? `
+            <div>
+              <label class="block text-xs font-medium text-muted mb-1">Élève</label>
+              <select id="perf-student" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm bg-white">
+                ${students.map(st => `<option value="${st.id}">${escapeHtml(st.name)}</option>`).join('')}
+              </select>
+            </div>
+          ` : ''}
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Programme joué (Compositeur, Œuvre, Mouvements)</label>
+            <textarea id="perf-piece" rows="3" required placeholder="Ex : E. Ysaÿe — Sonate pour violon seul n°3 en ré mineur « Ballade »" class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"></textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-medium text-muted mb-1">Durée estimée (minutes)</label>
+            <input type="number" id="perf-dur" value="12" min="2" max="60" required class="w-full px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm tabular-nums" />
+          </div>
+
+          <label class="flex items-center gap-2.5 p-3 rounded-xl border border-line cursor-pointer">
+            <input type="checkbox" id="perf-piano" checked class="accent-black" />
+            <span class="text-xs font-medium">Accompagné(e) au piano par Stéphanie Gurga</span>
+          </label>
+
+          <button type="submit" class="w-full py-3 rounded-xl bg-black text-white text-sm font-semibold hover:bg-neutral-800 transition-colors">
+            Valider mon inscription
+          </button>
+        </form>
+      `);
+
+      document.getElementById('form-join-audition').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const studentId = isAdminAdd ? document.getElementById('perf-student').value : user.id;
+        const piece = document.getElementById('perf-piece').value.trim();
+        const durationMinutes = Math.max(1, parseInt(document.getElementById('perf-dur').value, 10) || 10);
+        const withPiano = document.getElementById('perf-piano').checked;
+
+        aud.performers.push({
+          id: uid('perf'),
+          studentId,
+          piece,
+          durationMinutes,
+          withPiano
+        });
+        await saveDocToCloud('auditions', aud.id, aud);
+
+        closeModal();
+        showToast('Programme ajouté à l’audition.');
+        renderApp();
+      });
+    }
+
+    async function removeAuditionPerformer(auditionId, perfId) {
+      const aud = state.auditions.find(a => a.id === auditionId);
+      if (!aud) return;
+      aud.performers = aud.performers.filter(p => p.id !== perfId);
+      await saveDocToCloud('auditions', aud.id, aud);
+      showToast('Participant retiré.');
+      renderApp();
+    }
+
+    // =========================================================================
+    // 10. SÉLECTEUR DE PROFIL, NOTIFICATIONS & GUIDE PWA / GITHUB PAGES
+    // =========================================================================
+
+    // Sélecteur de profil (Professeur, Accompagnatrice, Élèves)
+    document.getElementById('btn-open-profile').addEventListener('click', () => {
+      const sessionBadge = authUser ? authUser.uid : 'Session locale';
+      openModal('Changer d’utilisateur', `
+        <div class="space-y-4">
+          <div class="flex items-center justify-between gap-2 px-3 py-2 rounded-xl bg-subtle border border-line text-[11px] text-muted">
+            <span>Statut : <strong class="text-ink">${isCloudConnected ? 'Synchronisé en temps réel' : 'Mode local'}</strong></span>
+            <span class="font-mono truncate max-w-[140px]" title="${escapeHtml(sessionBadge)}">ID: ${escapeHtml(sessionBadge)}</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed">
+            Sélectionnez votre profil pour accéder à vos fonctionnalités dédiées (gestion des créneaux et pauses pour Félix/Stéphanie, inscriptions et échanges pour les élèves).
+          </p>
+
+          <div class="space-y-2">
+            ${state.users.map(u => {
+              const active = u.id === state.currentUserId;
+              const badge = u.role === 'prof' ? 'Professeur' : (u.role === 'piano' ? 'Piano' : 'Élève');
+              return `
+                <button
+                  type="button"
+                  onclick="selectUser('${u.id}')"
+                  class="w-full p-3.5 rounded-2xl border ${active ? 'border-black bg-black text-white' : 'border-line hover:border-black bg-white text-ink'} flex items-center justify-between text-left transition-colors"
+                >
+                  <div>
+                    <div class="font-semibold text-sm">${escapeHtml(u.name)}</div>
+                    <div class="text-xs ${active ? 'text-neutral-300' : 'text-muted'}">${escapeHtml(u.subtitle)}</div>
+                  </div>
+                  <span class="px-2.5 py-1 rounded-full text-[11px] font-medium ${active ? 'bg-white text-black' : 'bg-subtle text-ink'}">
+                    ${badge}
+                  </span>
+                </button>
+              `;
+            }).join('')}
+          </div>
+
+          <form id="form-new-student" class="pt-3 border-t border-line space-y-2.5">
+            <label class="block text-xs font-medium text-muted">Ajouter un nouvel élève à la classe</label>
+            <div class="flex gap-2">
+              <input
+                type="text"
+                id="new-student-name"
+                placeholder="Prénom et Nom"
+                required
+                class="flex-1 px-3.5 py-2.5 rounded-xl border border-line focus:border-black focus:outline-none text-sm"
+              />
+              <button type="submit" class="px-4 py-2.5 rounded-xl bg-black text-white text-xs font-semibold hover:bg-neutral-800 transition-colors">
+                Ajouter
+              </button>
+            </div>
+          </form>
+        </div>
+      `);
+
+      document.getElementById('form-new-student').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const name = document.getElementById('new-student-name').value.trim();
+        if (!name) return;
+        const newUser = {
+          id: uid('student'),
+          name,
+          role: 'student',
+          subtitle: 'Classe de violon'
+        };
+        state.users.push(newUser);
+        state.currentUserId = newUser.id;
+        await saveDocToCloud('users', newUser.id, newUser);
+        closeModal();
+        showToast(`Profil « ${name} » créé et activé.`);
+        renderApp();
+      });
+    });
+
+    function selectUser(userId) {
+      state.currentUserId = userId;
+      closeModal();
+      const u = getCurrentUser();
+      showToast(`Connecté en tant que ${u.name}`);
+      renderApp();
+    }
+
+    // Centre de notifications
+    document.getElementById('btn-open-notifs').addEventListener('click', async () => {
+      const user = getCurrentUser();
+      const myNotifs = state.notifications.filter(
+        n => n.targetUserId === user.id || n.targetUserId === 'all'
+      );
+      const updates = [];
+      myNotifs.forEach(n => {
+        if (!n.read) {
+          n.read = true;
+          updates.push(saveDocToCloud('notifications', n.id, n));
+        }
+      });
+      if (updates.length > 0) {
+        Promise.all(updates);
+      }
+      renderApp();
+
+      openModal('Alertes & Notifications', `
+        <div class="space-y-3">
+          ${myNotifs.length === 0 ? `
+            <p class="py-8 text-center text-xs text-muted">Aucune notification pour ${escapeHtml(user.name)}.</p>
+          ` : myNotifs.map(n => `
+            <div class="p-3.5 rounded-2xl border border-line bg-subtle/40 space-y-1">
+              <div class="flex items-center justify-between gap-2">
+                <strong class="text-xs font-semibold">${escapeHtml(n.title)}</strong>
+                <span class="text-[11px] text-muted">${escapeHtml(n.time)}</span>
+              </div>
+              <p class="text-xs text-ink leading-relaxed">${escapeHtml(n.body)}</p>
+            </div>
+          `).join('')}
+        </div>
+      `);
+    });
+
+    // Guide Installation Écran d'accueil (PWA) & Export des 3 fichiers GitHub Pages
+    document.getElementById('btn-open-pwa').addEventListener('click', () => {
+      const hasCustomFirebase = Boolean(GITHUB_FIREBASE_CONFIG.apiKey && GITHUB_FIREBASE_CONFIG.projectId);
+
+      openModal('PWA & Déploiement GitHub Pages', `
+        <div class="space-y-4 text-xs sm:text-sm">
+          <!-- Étape 1 : Les 3 fichiers du dépôt GitHub -->
+          <div class="p-4 rounded-2xl border border-black bg-white space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-semibold text-sm">1. Télécharger les 3 fichiers PWA</h3>
+              <span class="px-2 py-0.5 rounded-full bg-subtle border border-line text-[10px] font-medium">Racine du dépôt</span>
+            </div>
+            <p class="text-xs text-muted leading-relaxed">
+              Déposez ces <strong>3 fichiers</strong> à la racine de votre dépôt GitHub (branche <code class="px-1 py-0.5 bg-subtle rounded font-mono">main</code>) pour que l'application soit installable sur iPhone et Android :
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
+              <button
+                type="button"
+                onclick="downloadGithubIndexHtml()"
+                class="py-2.5 px-3 rounded-xl bg-black text-white text-xs font-semibold hover:bg-neutral-800 transition-colors"
+              >
+                ↓ index.html
+              </button>
+              <button
+                type="button"
+                onclick="downloadGithubManifestJson()"
+                class="py-2.5 px-3 rounded-xl border border-black text-ink text-xs font-semibold hover:bg-subtle transition-colors"
+              >
+                ↓ manifest.json
+              </button>
+              <button
+                type="button"
+                onclick="downloadGithubSwJs()"
+                class="py-2.5 px-3 rounded-xl border border-black text-ink text-xs font-semibold hover:bg-subtle transition-colors"
+              >
+                ↓ sw.js
+              </button>
+            </div>
+          </div>
+
+          <!-- Étape 2 : Connexion Base de données Firebase -->
+          <div class="p-4 rounded-2xl bg-subtle border border-line space-y-2">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="font-semibold text-sm">2. Base de données partagée (Firebase)</h3>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold ${hasCustomFirebase ? 'bg-black text-white' : 'bg-white border border-line text-muted'}">
+                ${hasCustomFirebase ? 'Clés configurées' : 'À configurer'}
+              </span>
+            </div>
+            <p class="text-xs text-muted leading-relaxed">
+              Ouvrez <code class="px-1 py-0.5 bg-white rounded font-mono">index.html</code> dans un éditeur de texte et renseignez vos identifiants gratuits <strong>Firebase</strong> dans <code class="px-1 py-0.5 bg-white rounded font-mono">GITHUB_FIREBASE_CONFIG</code> (lignes 144–151) afin que Félix, Stéphanie et les élèves partagent le même planning en direct.
+            </p>
+          </div>
+
+          <!-- Étape 3 : Installation mobile -->
+          <div class="p-4 rounded-2xl bg-subtle border border-line space-y-2">
+            <h3 class="font-semibold text-sm">3. Ajouter sur l'écran d'accueil</h3>
+            <ul class="text-xs space-y-1.5 text-ink">
+              <li><strong>iPhone / iPad (Safari) :</strong> Appuyez sur <em>Partager</em> puis <em>« Sur l'écran d'accueil »</em>.</li>
+              <li><strong>Android (Chrome) :</strong> Appuyez sur <em>⋮</em> puis <em>« Installer l'application »</em>.</li>
+            </ul>
+            ${deferredInstallPrompt ? `
+              <button type="button" id="btn-trigger-native-install" class="mt-2 w-full py-2.5 rounded-xl bg-black text-white text-xs font-semibold">
+                Installer maintenant sur cet appareil
+              </button>
+            ` : ''}
+          </div>
+        </div>
+      `);
+
+      const nativeBtn = document.getElementById('btn-trigger-native-install');
+      if (nativeBtn && deferredInstallPrompt) {
+        nativeBtn.addEventListener('click', async () => {
+          deferredInstallPrompt.prompt();
+          await deferredInstallPrompt.userChoice;
+          deferredInstallPrompt = null;
+          closeModal();
+        });
+      }
+    });
+
+    function triggerFileDownload(filename, content, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      showToast(`Fichier ${filename} téléchargé.`);
+    }
+
+    function downloadGithubIndexHtml() {
+      // Clone propre du document sans les éléments injectés dynamiquement à l'exécution
+      const clone = document.documentElement.cloneNode(true);
+      const manifestEl = clone.querySelector('#pwa-manifest');
+      if (manifestEl) manifestEl.setAttribute('href', './manifest.json');
+      const appleEl = clone.querySelector('#apple-touch-icon');
+      if (appleEl) appleEl.removeAttribute('href');
+      ['#app-content', '#modal-body', '#toast-container', '#pending-swap-banner'].forEach(sel => {
+        const el = clone.querySelector(sel);
+        if (el) el.innerHTML = '';
+      });
+      const modalBackdrop = clone.querySelector('#modal-backdrop');
+      if (modalBackdrop) modalBackdrop.classList.add('hidden');
+      const banner = clone.querySelector('#pending-swap-banner');
+      if (banner) banner.classList.add('hidden');
+
+      const htmlContent = '<!DOCTYPE html>\n' + clone.outerHTML;
+      triggerFileDownload('index.html', htmlContent, 'text/html;charset=utf-8');
+    }
+
+    function downloadGithubManifestJson() {
+      const jsonContent = JSON.stringify(getManifestObject(), null, 2);
+      triggerFileDownload('manifest.json', jsonContent, 'application/manifest+json;charset=utf-8');
+    }
+
+    function downloadGithubSwJs() {
+      triggerFileDownload('sw.js', getServiceWorkerSource(), 'application/javascript;charset=utf-8');
+    }
+
+    // =========================================================================
+    // 11. EXPOSITION GLOBALE DES ACTIONS & DÉMARRAGE INITIAL
+    // =========================================================================
+    Object.assign(window, {
+      respondToSwap,
+      openAddSlotModal,
+      setDateFilter,
+      deleteSlot,
+      openBookSlotModal,
+      openInsertBreakAfterModal,
+      releaseSlot,
+      openProposeSwapModal,
+      openCreateAuditionModal,
+      removeAuditionPerformer,
+      openJoinAuditionModal,
+      switchSlotModalType,
+      closeModal,
+      selectUser,
+      downloadGithubIndexHtml,
+      downloadGithubManifestJson,
+      downloadGithubSwJs
+    });
+
+    renderApp();
+    initRealtimeSync();
+  </script>
+
+<iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" tabindex="-1" vspace="0" width="100%" aria-hidden="true" id="I0_1795518769672" name="I0_1795518769672" src="https://bard-frontend.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY&amp;appName=%5BDEFAULT%5D&amp;v=11.6.1&amp;eid=p&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.fr.NwStCmsbVJ4.O%2Fd%3D1%2Frs%3DAHpOoo_6HDxoiWLkgSC_FQfcFOPTefeGBg%2Fm%3D__features__#id=I0_1795518769672&amp;_gfid=I0_1795518769672&amp;parent=blob%3A%2F%2F&amp;pfname=&amp;rpctoken=41334366" style="position: absolute; top: -100px; width: 1px; height: 1px;"></iframe></body></html>
